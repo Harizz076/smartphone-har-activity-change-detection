@@ -1,0 +1,6 @@
+# Local research notes excluded from the public repository
+context.md
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
