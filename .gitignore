@@ -4,3 +4,13 @@ context.md
 # Python bytecode and caches
 __pycache__/
 *.py[cod]
+
+# LaTeX build artefacts (PDFs and .tex sources are intentionally retained)
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.nav
+*.out
+*.snm
+*.toc

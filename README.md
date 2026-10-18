@@ -7,20 +7,22 @@ Generalized Likelihood Ratio (GLR) detector.
 
 The project calculates a per-window tri-axial accelerometer-variance feature,
 fits thresholds using training data, and reports held-out activity-recognition
-results. The current `baseline/` module includes both a binary
-movement-versus-stillness detector for UCI HAR and six-class variance-only
-baselines for UCI HAR and WISDM. Future GLR and comparison modules can be
-added alongside it.
+results. The `baseline/` directory contains the variance-threshold baselines;
+the top-level `glrt/` directory contains the scalar one-class GLRT detectors.
 
 ## Run
 
 ```bash
 python3 baseline/variance_threshold_baseline.py
 python3 baseline/wisdm_variance_threshold_baseline.py
+python3 glrt/windowed_scalar_glrt.py --dataset all
+python3 glrt/sequential_scalar_glrt.py
 ```
 
 No third-party Python packages are needed. See `baseline/BASELINE_REPORT.md`
-and `baseline/WISDM_BASELINE_REPORT.md` for protocol and measured results.
+and `baseline/WISDM_BASELINE_REPORT.md` for the variance-threshold protocols.
+See `glrt/WINDOWED_SCALAR_GLRT_REPORT.md` and
+`glrt/SEQUENTIAL_SCALAR_GLRT_REPORT.md` for the GLRT detectors.
 
 ## Datasets
 
