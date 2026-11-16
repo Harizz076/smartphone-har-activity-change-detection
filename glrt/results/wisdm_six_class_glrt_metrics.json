@@ -1,0 +1,131 @@
+{
+  "windows": 1628,
+  "accuracy": 0.8243243243243243,
+  "balanced_accuracy": 0.8069583324629807,
+  "macro_f1": 0.7939627452821401,
+  "class_order": [
+    "Walking",
+    "Jogging",
+    "Upstairs",
+    "Downstairs",
+    "Sitting",
+    "Standing"
+  ],
+  "confusion_matrix": [
+    [
+      511,
+      86,
+      37,
+      13,
+      0,
+      0
+    ],
+    [
+      8,
+      477,
+      9,
+      12,
+      0,
+      0
+    ],
+    [
+      7,
+      27,
+      73,
+      42,
+      0,
+      0
+    ],
+    [
+      0,
+      7,
+      21,
+      118,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      73,
+      17
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      90
+    ]
+  ],
+  "per_class": {
+    "Walking": {
+      "support": 647,
+      "precision": 0.9714828897338403,
+      "recall": 0.7897990726429676,
+      "f1": 0.8712702472293264
+    },
+    "Jogging": {
+      "support": 506,
+      "precision": 0.7989949748743719,
+      "recall": 0.9426877470355731,
+      "f1": 0.8649138712601994
+    },
+    "Upstairs": {
+      "support": 149,
+      "precision": 0.5214285714285715,
+      "recall": 0.4899328859060403,
+      "f1": 0.5051903114186851
+    },
+    "Downstairs": {
+      "support": 146,
+      "precision": 0.6378378378378379,
+      "recall": 0.8082191780821918,
+      "f1": 0.7129909365558913
+    },
+    "Sitting": {
+      "support": 90,
+      "precision": 1.0,
+      "recall": 0.8111111111111111,
+      "f1": 0.8957055214723927
+    },
+    "Standing": {
+      "support": 90,
+      "precision": 0.8411214953271028,
+      "recall": 1.0,
+      "f1": 0.9137055837563453
+    }
+  },
+  "dataset": "WISDM",
+  "train_windows": 3597,
+  "feature_names": [
+    "mean_x",
+    "mean_y",
+    "mean_z",
+    "log_variance_x",
+    "log_variance_y",
+    "log_variance_z",
+    "correlation_xy",
+    "correlation_xz",
+    "correlation_yz",
+    "log_jerk_x",
+    "log_jerk_y",
+    "log_jerk_z",
+    "dominant_frequency_hz",
+    "spectral_entropy",
+    "log_band_power"
+  ],
+  "covariance_shrinkage": 0.1,
+  "covariance_ridge": 1e-06,
+  "class_training_counts": {
+    "Walking": 1410,
+    "Jogging": 1151,
+    "Upstairs": 404,
+    "Downstairs": 293,
+    "Sitting": 198,
+    "Standing": 141
+  }
+}

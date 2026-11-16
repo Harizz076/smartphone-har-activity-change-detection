@@ -1,0 +1,131 @@
+{
+  "windows": 2947,
+  "accuracy": 0.8615541228367831,
+  "balanced_accuracy": 0.8587823071018708,
+  "macro_f1": 0.8576720392342896,
+  "class_order": [
+    "WALKING",
+    "WALKING_UPSTAIRS",
+    "WALKING_DOWNSTAIRS",
+    "SITTING",
+    "STANDING",
+    "LAYING"
+  ],
+  "confusion_matrix": [
+    [
+      454,
+      10,
+      32,
+      0,
+      0,
+      0
+    ],
+    [
+      55,
+      380,
+      29,
+      0,
+      7,
+      0
+    ],
+    [
+      16,
+      28,
+      376,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      297,
+      187,
+      7
+    ],
+    [
+      0,
+      0,
+      0,
+      37,
+      495,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      537
+    ]
+  ],
+  "per_class": {
+    "WALKING": {
+      "support": 496,
+      "precision": 0.8647619047619047,
+      "recall": 0.9153225806451613,
+      "f1": 0.8893241919686581
+    },
+    "WALKING_UPSTAIRS": {
+      "support": 471,
+      "precision": 0.9090909090909091,
+      "recall": 0.8067940552016986,
+      "f1": 0.8548931383577053
+    },
+    "WALKING_DOWNSTAIRS": {
+      "support": 420,
+      "precision": 0.8604118993135011,
+      "recall": 0.8952380952380953,
+      "f1": 0.8774795799299884
+    },
+    "SITTING": {
+      "support": 491,
+      "precision": 0.8892215568862275,
+      "recall": 0.604887983706721,
+      "f1": 0.72
+    },
+    "STANDING": {
+      "support": 532,
+      "precision": 0.7184325108853411,
+      "recall": 0.9304511278195489,
+      "f1": 0.8108108108108109
+    },
+    "LAYING": {
+      "support": 537,
+      "precision": 0.9871323529411765,
+      "recall": 1.0,
+      "f1": 0.9935245143385754
+    }
+  },
+  "dataset": "UCI HAR",
+  "train_windows": 7352,
+  "feature_names": [
+    "mean_x",
+    "mean_y",
+    "mean_z",
+    "log_variance_x",
+    "log_variance_y",
+    "log_variance_z",
+    "correlation_xy",
+    "correlation_xz",
+    "correlation_yz",
+    "log_jerk_x",
+    "log_jerk_y",
+    "log_jerk_z",
+    "dominant_frequency_hz",
+    "spectral_entropy",
+    "log_band_power"
+  ],
+  "covariance_shrinkage": 0.1,
+  "covariance_ridge": 1e-06,
+  "class_training_counts": {
+    "WALKING": 1226,
+    "WALKING_UPSTAIRS": 1073,
+    "WALKING_DOWNSTAIRS": 986,
+    "SITTING": 1286,
+    "STANDING": 1374,
+    "LAYING": 1407
+  }
+}
