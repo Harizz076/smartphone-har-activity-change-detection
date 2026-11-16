@@ -1,0 +1,47 @@
+{
+  "dataset": "WISDM Activity Prediction v1.1 (accelerometer only; not WISDM UCI ID 507)",
+  "parsed_records": 1086475,
+  "malformed_records": 11734,
+  "users": 36,
+  "label_counts": {
+    "Jogging": 336450,
+    "Walking": 418395,
+    "Upstairs": 122869,
+    "Downstairs": 100427,
+    "Sitting": 59939,
+    "Standing": 48395
+  },
+  "nominal_sampling_hz": 20,
+  "observed_positive_step_seconds": {
+    "median": 0.049988,
+    "p05": 0.039917,
+    "p95": 0.080139
+  },
+  "same_user_nonpositive_timestamp_steps": 54829,
+  "adjacent_label_changes": 346,
+  "continuous_label_changes_gap_le_0_5s": 16,
+  "continuous_label_change_users": [
+    6,
+    14,
+    15
+  ],
+  "continuous_label_change_pairs": {
+    "Downstairs->Upstairs": 7,
+    "Upstairs->Downstairs": 9
+  },
+  "events_with_regular_1_5s_context_each_side": 8,
+  "fixed_boundary_event_control_check_0_5s_each_side": {
+    "label_boundary_n": 12,
+    "label_boundary_median": 2.9034094347860453,
+    "within_activity_control_n": 691,
+    "within_activity_control_median": 2.7056453077164977,
+    "within_activity_control_p95": 12.684418456838486,
+    "label_boundaries_above_control_p95": 2
+  },
+  "interpretation": [
+    "The file's median positive step agrees with the documented 20 Hz rate.",
+    "Most adjacent label changes are separated by gaps and are not observed physical transitions.",
+    "The rare near-contiguous label changes cover only stair-direction switches and three users.",
+    "This WISDM release has no gyroscope; it is secondary evidence for continuous change detection."
+  ]
+}

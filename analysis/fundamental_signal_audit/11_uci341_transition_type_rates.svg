@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1250" height="630" viewBox="0 0 1250 630">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#222}.tiny{font-size:10px}.small{font-size:12px}.label{font-size:14px}.title{font-size:20px;font-weight:bold}.grid{stroke:#ddd;stroke-width:1}.axis{stroke:#555;stroke-width:1}</style>
+<text class="title" x="625.0" y="28" text-anchor="middle">Simple GLRT sensitivity differs by transition type</text>
+<text class="small" x="625.0" y="49" text-anchor="middle">Event score above each sensor&#x27;s stable-posture 95th percentile; optimistic best landmark</text>
+<rect x="110" y="100" width="1025" height="355" fill="#fafafa" stroke="#777"/>
+<line class="grid" x1="110" y1="188.75" x2="1135" y2="188.75"/>
+<line class="grid" x1="110" y1="277.5" x2="1135" y2="277.5"/>
+<line class="grid" x1="110" y1="366.25" x2="1135" y2="366.25"/>
+<text class="tiny" x="103" y="104" text-anchor="end">100.00</text>
+<text class="tiny" x="103" y="455" text-anchor="end">0.00</text>
+<text class="small" x="18" y="277.5" text-anchor="middle" transform="rotate(-90 18 277.5)">events above threshold (%)</text>
+<rect x="139.04166666666669" y="188.75" width="51.25" height="266.25" fill="#0072B2"/>
+<text class="tiny" x="164.66666666666669" y="183.75" text-anchor="middle">75.0</text>
+<rect x="203.95833333333334" y="265.66666666666663" width="51.25" height="189.33333333333337" fill="#D55E00"/>
+<text class="tiny" x="229.58333333333334" y="260.66666666666663" text-anchor="middle">53.3</text>
+<text class="tiny" x="195.41666666666669" y="477" text-anchor="middle">STAND TO SIT</text>
+<rect x="309.87500000000006" y="254.59677419354838" width="51.25" height="200.40322580645162" fill="#0072B2"/>
+<text class="tiny" x="335.50000000000006" y="249.59677419354838" text-anchor="middle">56.5</text>
+<rect x="374.79166666666674" y="254.59677419354838" width="51.25" height="200.40322580645162" fill="#D55E00"/>
+<text class="tiny" x="400.41666666666674" y="249.59677419354838" text-anchor="middle">56.5</text>
+<text class="tiny" x="366.25" y="477" text-anchor="middle">SIT TO STAND</text>
+<rect x="480.70833333333337" y="247.91666666666663" width="51.25" height="207.08333333333337" fill="#0072B2"/>
+<text class="tiny" x="506.33333333333337" y="242.91666666666663" text-anchor="middle">58.3</text>
+<rect x="545.625" y="224.25" width="51.25" height="230.75" fill="#D55E00"/>
+<text class="tiny" x="571.25" y="219.25" text-anchor="middle">65.0</text>
+<text class="tiny" x="537.0833333333334" y="477" text-anchor="middle">SIT TO LIE</text>
+<rect x="651.5416666666666" y="182.83333333333331" width="51.25" height="272.1666666666667" fill="#0072B2"/>
+<text class="tiny" x="677.1666666666666" y="177.83333333333331" text-anchor="middle">76.7</text>
+<rect x="716.4583333333334" y="224.25" width="51.25" height="230.75" fill="#D55E00"/>
+<text class="tiny" x="742.0833333333334" y="219.25" text-anchor="middle">65.0</text>
+<text class="tiny" x="707.9166666666667" y="477" text-anchor="middle">LIE TO SIT</text>
+<rect x="822.375" y="246.89655172413794" width="51.25" height="208.10344827586206" fill="#0072B2"/>
+<text class="tiny" x="848.0" y="241.89655172413794" text-anchor="middle">58.6</text>
+<rect x="887.2916666666667" y="265.2586206896552" width="51.25" height="189.74137931034483" fill="#D55E00"/>
+<text class="tiny" x="912.9166666666667" y="260.2586206896552" text-anchor="middle">53.4</text>
+<text class="tiny" x="878.75" y="477" text-anchor="middle">STAND TO LIE</text>
+<rect x="993.2083333333334" y="161.20689655172413" width="51.25" height="293.7931034482759" fill="#0072B2"/>
+<text class="tiny" x="1018.8333333333334" y="156.20689655172413" text-anchor="middle">82.8</text>
+<rect x="1058.125" y="308.1034482758621" width="51.25" height="146.89655172413794" fill="#D55E00"/>
+<text class="tiny" x="1083.75" y="303.1034482758621" text-anchor="middle">41.4</text>
+<text class="tiny" x="1049.5833333333335" y="477" text-anchor="middle">LIE TO STAND</text>
+<rect x="410" y="535" width="22" height="12" fill="#0072B2"/>
+<text class="small" x="440" y="546">accelerometer</text>
+<rect x="640" y="535" width="22" height="12" fill="#D55E00"/>
+<text class="small" x="670" y="546">gyroscope</text>
+<text class="small" x="625.0" y="590" text-anchor="middle">A class-agnostic detector can retain both sensors; optional class naming should remain a later stage.</text>
+</svg>

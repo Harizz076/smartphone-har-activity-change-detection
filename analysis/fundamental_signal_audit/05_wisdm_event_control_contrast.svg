@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="630" viewBox="0 0 1050 630">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#222}.tiny{font-size:10px}.small{font-size:12px}.label{font-size:14px}.title{font-size:20px;font-weight:bold}.grid{stroke:#ddd;stroke-width:1}.axis{stroke:#555;stroke-width:1}</style>
+<text class="title" x="525.0" y="28" text-anchor="middle">Do WISDM label boundaries look more unusual than ordinary stair motion?</text>
+<text class="small" x="525.0" y="49" text-anchor="middle">Maximum exact mean-shift GLRT across x, y, z, and magnitude; 0.5 s on each side</text>
+<rect x="105" y="100" width="820" height="330" fill="#fafafa" stroke="#777"/>
+<line class="grid" x1="105" y1="182.5" x2="925" y2="182.5"/>
+<line class="grid" x1="105" y1="265.0" x2="925" y2="265.0"/>
+<line class="grid" x1="105" y1="347.5" x2="925" y2="347.5"/>
+<text class="tiny" x="98" y="104" text-anchor="end">23.68</text>
+<text class="tiny" x="98" y="430" text-anchor="end">0.00</text>
+<text class="small" x="18" y="265.0" text-anchor="middle" transform="rotate(-90 18 265.0)">2 log Λ</text>
+<circle cx="351.0" cy="392.290287825539" r="5" fill="#777777"/>
+<text class="small" x="363.0" y="396.290287825539">p50: 2.71</text>
+<circle cx="351.0" cy="357.88106525254443" r="5" fill="#777777"/>
+<text class="small" x="363.0" y="361.88106525254443">p75: 5.17</text>
+<circle cx="351.0" cy="299.862920902519" r="5" fill="#777777"/>
+<text class="small" x="363.0" y="303.862920902519">p90: 9.34</text>
+<circle cx="351.0" cy="253.21194587346113" r="5" fill="#777777"/>
+<text class="small" x="363.0" y="257.2119458734611">p95: 12.68</text>
+<text class="label" x="351.0" y="460" text-anchor="middle">within-activity control</text>
+<text class="small" x="351.0" y="480" text-anchor="middle">n=691</text>
+<circle cx="695.4" cy="389.5339663339684" r="5" fill="#D55E00"/>
+<text class="small" x="707.4" y="393.5339663339684">p50: 2.90</text>
+<circle cx="695.4" cy="371.8335838493949" r="5" fill="#D55E00"/>
+<text class="small" x="707.4" y="375.8335838493949">p75: 4.17</text>
+<circle cx="695.4" cy="249.73637498631933" r="5" fill="#D55E00"/>
+<text class="small" x="707.4" y="253.73637498631933">p90: 12.93</text>
+<circle cx="695.4" cy="174.85454213308472" r="5" fill="#D55E00"/>
+<text class="small" x="707.4" y="178.85454213308472">p95: 18.31</text>
+<text class="label" x="695.4" y="460" text-anchor="middle">label boundary</text>
+<text class="small" x="695.4" y="480" text-anchor="middle">n=12</text>
+<text class="label" x="525.0" y="525" text-anchor="middle">Only 2/12 label boundaries exceed the matched control 95th percentile (12.68).</text>
+<text class="small" x="525.0" y="552" text-anchor="middle">The labeled switch is not cleanly separable from normal within-activity stair oscillation by a raw mean shift.</text>
+<text class="tiny" x="525.0" y="590" text-anchor="middle">Controls: same three users and stair labels, regular timing, fixed boundaries sampled every 1 s. Observations are temporally dependent.</text>
+</svg>

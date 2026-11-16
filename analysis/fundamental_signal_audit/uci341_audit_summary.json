@@ -1,0 +1,103 @@
+{
+  "dataset": "UCI 341 / HAPT raw inertial data",
+  "sampling_hz": 50,
+  "streams": 61,
+  "subjects": 30,
+  "total_raw_samples_per_sensor": 1122772,
+  "accel_gyro_length_mismatches": 0,
+  "labeled_intervals": 1214,
+  "transition_intervals": 358,
+  "transition_counts": {
+    "STAND_TO_SIT": 60,
+    "SIT_TO_STAND": 62,
+    "SIT_TO_LIE": 60,
+    "LIE_TO_SIT": 60,
+    "STAND_TO_LIE": 58,
+    "LIE_TO_STAND": 58
+  },
+  "transition_duration_seconds": {
+    "STAND_TO_SIT": {
+      "median": 3.33,
+      "min": 1.8,
+      "max": 6.14
+    },
+    "SIT_TO_STAND": {
+      "median": 2.59,
+      "min": 1.48,
+      "max": 3.66
+    },
+    "SIT_TO_LIE": {
+      "median": 4.04,
+      "min": 2.72,
+      "max": 6.52
+    },
+    "LIE_TO_SIT": {
+      "median": 3.58,
+      "min": 2.28,
+      "max": 5.6
+    },
+    "STAND_TO_LIE": {
+      "median": 4.73,
+      "min": 2.78,
+      "max": 9.88
+    },
+    "LIE_TO_STAND": {
+      "median": 3.62,
+      "min": 2.36,
+      "max": 6.46
+    }
+  },
+  "event_control_check": {
+    "accelerometer": {
+      "transition_n": 358,
+      "control_n": 4024,
+      "transition_median": 56.794562570003514,
+      "control_median": 7.735563852793847,
+      "control_p95": 46.28524668667854,
+      "transitions_above_control_p95": 243,
+      "transition_winning_channel_counts": {
+        "z": 160,
+        "y": 119,
+        "x": 72,
+        "magnitude": 7
+      },
+      "per_transition_type_above_control_p95_percent": {
+        "STAND_TO_SIT": 75.0,
+        "SIT_TO_STAND": 56.45161290322581,
+        "SIT_TO_LIE": 58.333333333333336,
+        "LIE_TO_SIT": 76.66666666666667,
+        "STAND_TO_LIE": 58.62068965517241,
+        "LIE_TO_STAND": 82.75862068965517
+      }
+    },
+    "gyroscope": {
+      "transition_n": 358,
+      "control_n": 4024,
+      "transition_median": 64.23386122079626,
+      "control_median": 15.86111830539231,
+      "control_p95": 60.2944730928237,
+      "transitions_above_control_p95": 200,
+      "transition_winning_channel_counts": {
+        "z": 117,
+        "x": 63,
+        "y": 67,
+        "magnitude": 111
+      },
+      "per_transition_type_above_control_p95_percent": {
+        "STAND_TO_SIT": 53.333333333333336,
+        "SIT_TO_STAND": 56.45161290322581,
+        "SIT_TO_LIE": 65.0,
+        "LIE_TO_SIT": 65.0,
+        "STAND_TO_LIE": 53.44827586206897,
+        "LIE_TO_STAND": 41.37931034482759
+      }
+    },
+    "complementarity_at_sensor_specific_control_p95": {
+      "detected_by_both": 132,
+      "accelerometer_only": 111,
+      "gyroscope_only": 68,
+      "detected_by_either": 311
+    }
+  },
+  "endpoint_convention": "adopted one-based inclusive input endpoints; Python slice is [start-1:end]"
+}

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="650" viewBox="0 0 1160 650">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#222}.tiny{font-size:10px}.small{font-size:12px}.label{font-size:14px}.title{font-size:20px;font-weight:bold}.grid{stroke:#ddd;stroke-width:1}.axis{stroke:#555;stroke-width:1}</style>
+<text class="title" x="580.0" y="28" text-anchor="middle">WISDM label-boundary timing audit</text>
+<text class="small" x="580.0" y="49" text-anchor="middle">A label change is usable as a continuous boundary only when the time gap is small</text>
+<rect x="95" y="95" width="980" height="370" fill="#fafafa" stroke="#777"/>
+<line class="grid" x1="95" y1="187.5" x2="1075" y2="187.5"/>
+<line class="grid" x1="95" y1="280.0" x2="1075" y2="280.0"/>
+<line class="grid" x1="95" y1="372.5" x2="1075" y2="372.5"/>
+<text class="tiny" x="88" y="99" text-anchor="end">144.48</text>
+<text class="tiny" x="88" y="465" text-anchor="end">0.00</text>
+<text class="small" x="18" y="280.0" text-anchor="middle" transform="rotate(-90 18 280.0)">number of label changes</text>
+<rect x="101.7" y="419.1" width="47.8" height="45.9" fill="#009E73"/>
+<text class="tiny" x="125.6" y="414.1" text-anchor="middle">16</text>
+<rect x="163.0" y="465.0" width="47.8" height="0.0" fill="#009E73"/>
+<rect x="224.2" y="465.0" width="47.8" height="0.0" fill="#009E73"/>
+<rect x="285.5" y="465.0" width="47.8" height="0.0" fill="#009E73"/>
+<rect x="346.7" y="459.3" width="47.8" height="5.7" fill="#999999"/>
+<text class="tiny" x="370.6" y="454.3" text-anchor="middle">2</text>
+<rect x="408.0" y="430.6" width="47.8" height="34.4" fill="#999999"/>
+<text class="tiny" x="431.9" y="425.6" text-anchor="middle">12</text>
+<rect x="469.2" y="453.5" width="47.8" height="11.5" fill="#999999"/>
+<text class="tiny" x="493.1" y="448.5" text-anchor="middle">4</text>
+<rect x="530.5" y="427.7" width="47.8" height="37.3" fill="#999999"/>
+<text class="tiny" x="554.4" y="422.7" text-anchor="middle">13</text>
+<rect x="591.7" y="272.8" width="47.8" height="192.2" fill="#999999"/>
+<text class="tiny" x="615.6" y="267.8" text-anchor="middle">67</text>
+<rect x="653.0" y="95.0" width="47.8" height="370.0" fill="#999999"/>
+<text class="tiny" x="676.9" y="90.0" text-anchor="middle">129</text>
+<rect x="714.2" y="347.4" width="47.8" height="117.6" fill="#999999"/>
+<text class="tiny" x="738.1" y="342.4" text-anchor="middle">41</text>
+<rect x="775.5" y="390.4" width="47.8" height="74.6" fill="#999999"/>
+<text class="tiny" x="799.4" y="385.4" text-anchor="middle">26</text>
+<rect x="836.7" y="430.6" width="47.8" height="34.4" fill="#999999"/>
+<text class="tiny" x="860.6" y="425.6" text-anchor="middle">12</text>
+<rect x="898.0" y="462.1" width="47.8" height="2.9" fill="#999999"/>
+<text class="tiny" x="921.9" y="457.1" text-anchor="middle">1</text>
+<rect x="959.2" y="465.0" width="47.8" height="0.0" fill="#999999"/>
+<rect x="1020.5" y="456.4" width="47.8" height="8.6" fill="#999999"/>
+<text class="tiny" x="1044.4" y="451.4" text-anchor="middle">3</text>
+<line class="axis" x1="132.49819312486505" y1="465" x2="132.49819312486505" y2="471"/>
+<text class="tiny" x="132.49819312486505" y="487" text-anchor="middle">0.05 s</text>
+<line class="axis" x1="320.95973158640356" y1="465" x2="320.95973158640356" y2="471"/>
+<text class="tiny" x="320.95973158640356" y="487" text-anchor="middle">0.5 s</text>
+<line class="axis" x1="509.421270047942" y1="465" x2="509.421270047942" y2="471"/>
+<text class="tiny" x="509.421270047942" y="487" text-anchor="middle">5 s</text>
+<line class="axis" x1="697.8828085094805" y1="465" x2="697.8828085094805" y2="471"/>
+<text class="tiny" x="697.8828085094805" y="487" text-anchor="middle">50 s</text>
+<line class="axis" x1="886.3443469710189" y1="465" x2="886.3443469710189" y2="471"/>
+<text class="tiny" x="886.3443469710189" y="487" text-anchor="middle">500 s</text>
+<line class="axis" x1="1074.8058854325573" y1="465" x2="1074.8058854325573" y2="471"/>
+<text class="tiny" x="1074.8058854325573" y="487" text-anchor="middle">5000 s</text>
+<text class="label" x="95" y="535">16 / 346 label changes have a positive gap ≤ 0.5 s</text>
+<text class="small" x="95" y="560">Those 16 events cover only upstairs↔downstairs and three users.</text>
+<text class="small" x="95" y="585">20 boundaries have a non-positive timestamp step; they cannot be treated as continuous.</text>
+<text class="small" x="585.0" y="519" text-anchor="middle">elapsed time between the final old-label sample and first new-label sample (log scale)</text>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1230" height="690" viewBox="0 0 1230 690">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#222}.tiny{font-size:10px}.small{font-size:12px}.label{font-size:14px}.title{font-size:20px;font-weight:bold}.grid{stroke:#ddd;stroke-width:1}.axis{stroke:#555;stroke-width:1}</style>
+<text class="title" x="615.0" y="28" text-anchor="middle">Are labeled postural transitions distinct from stable-posture fluctuations?</text>
+<text class="small" x="615.0" y="49" text-anchor="middle">0.5 s per side; max channel, and for events the best of onset/midpoint/end</text>
+<rect x="100" y="105" width="485" height="350" fill="#fafafa" stroke="#777"/>
+<line class="grid" x1="100" y1="192.5" x2="585" y2="192.5"/>
+<line class="grid" x1="100" y1="280.0" x2="585" y2="280.0"/>
+<line class="grid" x1="100" y1="367.5" x2="585" y2="367.5"/>
+<text class="tiny" x="93" y="109" text-anchor="end">105.08</text>
+<text class="tiny" x="93" y="455" text-anchor="end">0.00</text>
+<text class="small" x="18" y="280.0" text-anchor="middle" transform="rotate(-90 18 280.0)">2 log Λ</text>
+<circle cx="235.8" cy="429.2340412018231" r="4.5" fill="#777777"/>
+<text class="tiny" x="244.8" y="432.2340412018231">p50 7.7</text>
+<circle cx="235.8" cy="394.5037055683957" r="4.5" fill="#777777"/>
+<text class="tiny" x="244.8" y="397.5037055683957">p75 18.2</text>
+<circle cx="235.8" cy="341.0049927796822" r="4.5" fill="#777777"/>
+<text class="tiny" x="244.8" y="344.0049927796822">p90 34.2</text>
+<circle cx="235.8" cy="300.8310497092351" r="4.5" fill="#777777"/>
+<text class="tiny" x="244.8" y="303.8310497092351">p95 46.3</text>
+<text class="tiny" x="235.8" y="477" text-anchor="middle">stable-posture control</text>
+<text class="tiny" x="235.8" y="494" text-anchor="middle">n=4024</text>
+<circle cx="468.6" cy="265.82615475914315" r="4.5" fill="#D55E00"/>
+<text class="tiny" x="477.6" y="268.82615475914315">p50 56.8</text>
+<circle cx="468.6" cy="217.87187815047938" r="4.5" fill="#D55E00"/>
+<text class="tiny" x="477.6" y="220.87187815047938">p75 71.2</text>
+<circle cx="468.6" cy="182.7553281912708" r="4.5" fill="#D55E00"/>
+<text class="tiny" x="477.6" y="185.7553281912708">p90 81.7</text>
+<circle cx="468.6" cy="156.00662718264502" r="4.5" fill="#D55E00"/>
+<text class="tiny" x="477.6" y="159.00662718264502">p95 89.8</text>
+<text class="tiny" x="468.6" y="477" text-anchor="middle">transition event</text>
+<text class="tiny" x="468.6" y="494" text-anchor="middle">n=358</text>
+<text class="label" x="342.5" y="89" text-anchor="middle">accelerometer</text>
+<text class="small" x="342.5" y="527" text-anchor="middle">events above control p95: 243/358 (67.9%)</text>
+<rect x="700" y="105" width="485" height="350" fill="#fafafa" stroke="#777"/>
+<line class="grid" x1="700" y1="192.5" x2="1185" y2="192.5"/>
+<line class="grid" x1="700" y1="280.0" x2="1185" y2="280.0"/>
+<line class="grid" x1="700" y1="367.5" x2="1185" y2="367.5"/>
+<text class="tiny" x="693" y="109" text-anchor="end">112.39</text>
+<text class="tiny" x="693" y="455" text-anchor="end">0.00</text>
+<text class="small" x="18" y="280.0" text-anchor="middle" transform="rotate(-90 18 280.0)">2 log Λ</text>
+<circle cx="835.8" cy="405.60674017320815" r="4.5" fill="#777777"/>
+<text class="tiny" x="844.8" y="408.60674017320815">p50 15.9</text>
+<circle cx="835.8" cy="363.1006372547114" r="4.5" fill="#777777"/>
+<text class="tiny" x="844.8" y="366.1006372547114">p75 29.5</text>
+<circle cx="835.8" cy="308.00452326831373" r="4.5" fill="#777777"/>
+<text class="tiny" x="844.8" y="311.00452326831373">p90 47.2</text>
+<circle cx="835.8" cy="267.2364061441449" r="4.5" fill="#777777"/>
+<text class="tiny" x="844.8" y="270.2364061441449">p95 60.3</text>
+<text class="tiny" x="835.8" y="477" text-anchor="middle">stable-posture control</text>
+<text class="tiny" x="835.8" y="494" text-anchor="middle">n=4024</text>
+<circle cx="1068.6" cy="254.96871999383248" r="4.5" fill="#D55E00"/>
+<text class="tiny" x="1077.6" y="257.96871999383245">p50 64.2</text>
+<circle cx="1068.6" cy="208.72641029458774" r="4.5" fill="#D55E00"/>
+<text class="tiny" x="1077.6" y="211.72641029458774">p75 79.1</text>
+<circle cx="1068.6" cy="170.021718232738" r="4.5" fill="#D55E00"/>
+<text class="tiny" x="1077.6" y="173.021718232738">p90 91.5</text>
+<circle cx="1068.6" cy="147.11971181717638" r="4.5" fill="#D55E00"/>
+<text class="tiny" x="1077.6" y="150.11971181717638">p95 98.9</text>
+<text class="tiny" x="1068.6" y="477" text-anchor="middle">transition event</text>
+<text class="tiny" x="1068.6" y="494" text-anchor="middle">n=358</text>
+<text class="label" x="942.5" y="89" text-anchor="middle">gyroscope</text>
+<text class="small" x="942.5" y="527" text-anchor="middle">events above control p95: 200/358 (55.9%)</text>
+<text class="small" x="615.0" y="610" text-anchor="middle">The event score is optimistic because it takes the best of three label-derived landmarks; deployment must scan without labels.</text>
+<text class="tiny" x="615.0" y="638" text-anchor="middle">Controls span standing, sitting, and lying; repeated controls within streams are not independent.</text>
+</svg>
