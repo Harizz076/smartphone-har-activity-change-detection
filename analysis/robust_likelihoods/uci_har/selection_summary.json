@@ -1,0 +1,571 @@
+{
+  "dataset": "UCI HAR",
+  "exploratory": true,
+  "feature_set": "full",
+  "selection_objective": [
+    "balanced_accuracy",
+    "macro_f1",
+    "accuracy"
+  ],
+  "fold_window_counts": [
+    2450,
+    2441,
+    2461
+  ],
+  "subject_folds": {
+    "1": 1,
+    "3": 1,
+    "5": 0,
+    "6": 2,
+    "7": 2,
+    "8": 1,
+    "11": 1,
+    "14": 0,
+    "15": 0,
+    "16": 1,
+    "17": 0,
+    "19": 2,
+    "21": 1,
+    "22": 2,
+    "23": 2,
+    "25": 0,
+    "26": 2,
+    "27": 0,
+    "28": 1,
+    "29": 0,
+    "30": 2
+  },
+  "candidate_count": 55,
+  "training_tail_diagnostics": {
+    "median_absolute_skewness": 0.5766412094271901,
+    "p90_absolute_skewness": 1.6728900948639207,
+    "median_excess_kurtosis": 0.270209659621504,
+    "p90_excess_kurtosis": 3.755052469894693,
+    "median_fraction_beyond_3sd": 0.004366812227074236,
+    "p90_fraction_beyond_3sd": 0.02129817444219067,
+    "class_feature_cells": 90
+  },
+  "selected": {
+    "distribution": "student_t",
+    "covariance": "class_full",
+    "degrees_freedom": 30.0,
+    "shrinkage": 0.03,
+    "validation_metrics": {
+      "windows": 7352,
+      "accuracy": 0.8818008705114254,
+      "balanced_accuracy": 0.8799294651791102,
+      "macro_f1": 0.8791532431750665,
+      "class_order": [
+        "WALKING",
+        "WALKING_UPSTAIRS",
+        "WALKING_DOWNSTAIRS",
+        "SITTING",
+        "STANDING",
+        "LAYING"
+      ],
+      "confusion_matrix": [
+        [
+          1049,
+          89,
+          88,
+          0,
+          0,
+          0
+        ],
+        [
+          96,
+          922,
+          54,
+          0,
+          1,
+          0
+        ],
+        [
+          54,
+          33,
+          899,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          951,
+          301,
+          33
+        ],
+        [
+          0,
+          0,
+          0,
+          118,
+          1256,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1406
+        ]
+      ],
+      "per_class": {
+        "WALKING": {
+          "support": 1226,
+          "precision": 0.8748957464553795,
+          "recall": 0.8556280587275693,
+          "f1": 0.8651546391752578
+        },
+        "WALKING_UPSTAIRS": {
+          "support": 1073,
+          "precision": 0.8822966507177034,
+          "recall": 0.8592730661696178,
+          "f1": 0.8706326723323891
+        },
+        "WALKING_DOWNSTAIRS": {
+          "support": 986,
+          "precision": 0.8635926993275697,
+          "recall": 0.9117647058823529,
+          "f1": 0.8870251603354712
+        },
+        "SITTING": {
+          "support": 1286,
+          "precision": 0.888785046728972,
+          "recall": 0.73950233281493,
+          "f1": 0.8073005093378609
+        },
+        "STANDING": {
+          "support": 1374,
+          "precision": 0.8061617458279846,
+          "recall": 0.9141193595342066,
+          "f1": 0.8567530695770804
+        },
+        "LAYING": {
+          "support": 1407,
+          "precision": 0.9770674079221682,
+          "recall": 0.9992892679459844,
+          "f1": 0.9880534082923401
+        }
+      }
+    },
+    "em_convergence": [
+      [
+        true,
+        7
+      ],
+      [
+        true,
+        9
+      ],
+      [
+        true,
+        8
+      ],
+      [
+        true,
+        9
+      ],
+      [
+        true,
+        8
+      ],
+      [
+        true,
+        12
+      ],
+      [
+        true,
+        8
+      ],
+      [
+        true,
+        8
+      ],
+      [
+        true,
+        8
+      ],
+      [
+        true,
+        9
+      ],
+      [
+        true,
+        9
+      ],
+      [
+        true,
+        11
+      ],
+      [
+        true,
+        7
+      ],
+      [
+        true,
+        7
+      ],
+      [
+        true,
+        7
+      ],
+      [
+        true,
+        9
+      ],
+      [
+        true,
+        9
+      ],
+      [
+        true,
+        12
+      ]
+    ]
+  },
+  "test_metrics": {
+    "windows": 2947,
+    "accuracy": 0.8805564981336953,
+    "balanced_accuracy": 0.8789081166331029,
+    "macro_f1": 0.8784094042959832,
+    "class_order": [
+      "WALKING",
+      "WALKING_UPSTAIRS",
+      "WALKING_DOWNSTAIRS",
+      "SITTING",
+      "STANDING",
+      "LAYING"
+    ],
+    "confusion_matrix": [
+      [
+        459,
+        7,
+        30,
+        0,
+        0,
+        0
+      ],
+      [
+        33,
+        404,
+        29,
+        0,
+        5,
+        0
+      ],
+      [
+        16,
+        17,
+        387,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        319,
+        169,
+        3
+      ],
+      [
+        0,
+        0,
+        0,
+        43,
+        489,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        537
+      ]
+    ],
+    "per_class": {
+      "WALKING": {
+        "support": 496,
+        "precision": 0.9035433070866141,
+        "recall": 0.9254032258064516,
+        "f1": 0.9143426294820716
+      },
+      "WALKING_UPSTAIRS": {
+        "support": 471,
+        "precision": 0.9439252336448598,
+        "recall": 0.8577494692144374,
+        "f1": 0.8987764182424917
+      },
+      "WALKING_DOWNSTAIRS": {
+        "support": 420,
+        "precision": 0.8677130044843049,
+        "recall": 0.9214285714285714,
+        "f1": 0.8937644341801385
+      },
+      "SITTING": {
+        "support": 491,
+        "precision": 0.8812154696132597,
+        "recall": 0.6496945010183299,
+        "f1": 0.7479484173505276
+      },
+      "STANDING": {
+        "support": 532,
+        "precision": 0.7375565610859729,
+        "recall": 0.9191729323308271,
+        "f1": 0.8184100418410042
+      },
+      "LAYING": {
+        "support": 537,
+        "precision": 0.9944444444444445,
+        "recall": 1.0,
+        "f1": 0.9972144846796658
+      }
+    }
+  },
+  "final_em_convergence": [
+    {
+      "label": "WALKING",
+      "converged": true,
+      "iterations": 7
+    },
+    {
+      "label": "WALKING_UPSTAIRS",
+      "converged": true,
+      "iterations": 8
+    },
+    {
+      "label": "WALKING_DOWNSTAIRS",
+      "converged": true,
+      "iterations": 7
+    },
+    {
+      "label": "SITTING",
+      "converged": true,
+      "iterations": 9
+    },
+    {
+      "label": "STANDING",
+      "converged": true,
+      "iterations": 9
+    },
+    {
+      "label": "LAYING",
+      "converged": true,
+      "iterations": 14
+    }
+  ],
+  "gaussian_reference": {
+    "configuration": "gaussian|class_full|s=0.03",
+    "validation_metrics": {
+      "windows": 7352,
+      "accuracy": 0.8800326441784548,
+      "balanced_accuracy": 0.8781978169656157,
+      "macro_f1": 0.8770561776921432,
+      "class_order": [
+        "WALKING",
+        "WALKING_UPSTAIRS",
+        "WALKING_DOWNSTAIRS",
+        "SITTING",
+        "STANDING",
+        "LAYING"
+      ],
+      "confusion_matrix": [
+        [
+          1035,
+          90,
+          100,
+          0,
+          1,
+          0
+        ],
+        [
+          85,
+          926,
+          61,
+          0,
+          1,
+          0
+        ],
+        [
+          53,
+          34,
+          899,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          941,
+          307,
+          38
+        ],
+        [
+          0,
+          0,
+          0,
+          112,
+          1262,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1407
+        ]
+      ],
+      "per_class": {
+        "WALKING": {
+          "support": 1226,
+          "precision": 0.8823529411764706,
+          "recall": 0.8442088091353996,
+          "f1": 0.8628595248020008
+        },
+        "WALKING_UPSTAIRS": {
+          "support": 1073,
+          "precision": 0.8819047619047619,
+          "recall": 0.8630009319664492,
+          "f1": 0.8723504474799813
+        },
+        "WALKING_DOWNSTAIRS": {
+          "support": 986,
+          "precision": 0.8481132075471698,
+          "recall": 0.9117647058823529,
+          "f1": 0.8787878787878789
+        },
+        "SITTING": {
+          "support": 1286,
+          "precision": 0.8936372269705603,
+          "recall": 0.7317262830482115,
+          "f1": 0.8046173578452329
+        },
+        "STANDING": {
+          "support": 1374,
+          "precision": 0.8033099936346276,
+          "recall": 0.9184861717612809,
+          "f1": 0.8570458404074702
+        },
+        "LAYING": {
+          "support": 1407,
+          "precision": 0.9737024221453288,
+          "recall": 1.0,
+          "f1": 0.9866760168302946
+        }
+      }
+    },
+    "test_metrics": {
+      "windows": 2947,
+      "accuracy": 0.8791991856124872,
+      "balanced_accuracy": 0.8776046218834798,
+      "macro_f1": 0.8766851285199015,
+      "class_order": [
+        "WALKING",
+        "WALKING_UPSTAIRS",
+        "WALKING_DOWNSTAIRS",
+        "SITTING",
+        "STANDING",
+        "LAYING"
+      ],
+      "confusion_matrix": [
+        [
+          456,
+          8,
+          31,
+          0,
+          1,
+          0
+        ],
+        [
+          31,
+          406,
+          27,
+          0,
+          7,
+          0
+        ],
+        [
+          12,
+          18,
+          390,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          307,
+          177,
+          7
+        ],
+        [
+          0,
+          0,
+          0,
+          37,
+          495,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          537
+        ]
+      ],
+      "per_class": {
+        "WALKING": {
+          "support": 496,
+          "precision": 0.9138276553106213,
+          "recall": 0.9193548387096774,
+          "f1": 0.9165829145728642
+        },
+        "WALKING_UPSTAIRS": {
+          "support": 471,
+          "precision": 0.9398148148148148,
+          "recall": 0.861995753715499,
+          "f1": 0.8992248062015505
+        },
+        "WALKING_DOWNSTAIRS": {
+          "support": 420,
+          "precision": 0.8705357142857143,
+          "recall": 0.9285714285714286,
+          "f1": 0.8986175115207374
+        },
+        "SITTING": {
+          "support": 491,
+          "precision": 0.8924418604651163,
+          "recall": 0.6252545824847251,
+          "f1": 0.7353293413173653
+        },
+        "STANDING": {
+          "support": 532,
+          "precision": 0.7279411764705882,
+          "recall": 0.9304511278195489,
+          "f1": 0.8168316831683168
+        },
+        "LAYING": {
+          "support": 537,
+          "precision": 0.9871323529411765,
+          "recall": 1.0,
+          "f1": 0.9935245143385754
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img">
+<title>Robust likelihood validation ranking</title><desc>Top configurations by subject-disjoint balanced accuracy; colors identify likelihood families.</desc>
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#222}.title{font-size:18px;font-weight:bold}.label{font-size:12px}.small{font-size:10px}</style>
+<text class="title" x="600.0" y="27" text-anchor="middle">Robust likelihood validation ranking</text>
+<text class="small" x="462" y="71" text-anchor="end">student_t|class_full|s=0.5|nu=30</text>
+<rect x="470" y="58" width="140.0" height="18" fill="#D55E00"/>
+<text class="small" x="615.0" y="71">0.847</text>
+<text class="small" x="462" y="98" text-anchor="end">student_t|class_full|s=0.25|nu=30</text>
+<rect x="470" y="85" width="125.7" height="18" fill="#D55E00"/>
+<text class="small" x="600.7" y="98">0.843</text>
+<text class="small" x="462" y="125" text-anchor="end">student_t|class_full|s=0.5|nu=10</text>
+<rect x="470" y="112" width="123.7" height="18" fill="#D55E00"/>
+<text class="small" x="598.7" y="125">0.842</text>
+<text class="small" x="462" y="152" text-anchor="end">student_t|class_full|s=0.5|nu=5</text>
+<rect x="470" y="139" width="122.2" height="18" fill="#D55E00"/>
+<text class="small" x="597.2" y="152">0.842</text>
+<text class="small" x="462" y="179" text-anchor="end">student_t|class_full|s=0.75|nu=30</text>
+<rect x="470" y="166" width="118.9" height="18" fill="#D55E00"/>
+<text class="small" x="593.9" y="179">0.841</text>
+<text class="small" x="462" y="206" text-anchor="end">gaussian|class_full|s=0.75</text>
+<rect x="470" y="193" width="118.6" height="18" fill="#0072B2"/>
+<text class="small" x="593.6" y="206">0.841</text>
+<text class="small" x="462" y="233" text-anchor="end">student_t|class_full|s=0.25|nu=10</text>
+<rect x="470" y="220" width="117.0" height="18" fill="#D55E00"/>
+<text class="small" x="592.0" y="233">0.840</text>
+<text class="small" x="462" y="260" text-anchor="end">student_t|class_full|s=0.5|nu=3</text>
+<rect x="470" y="247" width="112.0" height="18" fill="#D55E00"/>
+<text class="small" x="587.0" y="260">0.839</text>
+<text class="small" x="462" y="287" text-anchor="end">student_t|class_full|s=0.75|nu=5</text>
+<rect x="470" y="274" width="110.6" height="18" fill="#D55E00"/>
+<text class="small" x="585.6" y="287">0.838</text>
+<text class="small" x="462" y="314" text-anchor="end">gaussian|class_full|s=0.5</text>
+<rect x="470" y="301" width="108.9" height="18" fill="#0072B2"/>
+<text class="small" x="583.9" y="314">0.838</text>
+<text class="small" x="462" y="341" text-anchor="end">student_t|class_full|s=0.75|nu=3</text>
+<rect x="470" y="328" width="108.6" height="18" fill="#D55E00"/>
+<text class="small" x="583.6" y="341">0.838</text>
+<text class="small" x="462" y="368" text-anchor="end">student_t|class_full|s=0.75|nu=10</text>
+<rect x="470" y="355" width="108.0" height="18" fill="#D55E00"/>
+<text class="small" x="583.0" y="368">0.838</text>
+<text class="small" x="462" y="395" text-anchor="end">student_t|class_full|s=0.1|nu=30</text>
+<rect x="470" y="382" width="106.8" height="18" fill="#D55E00"/>
+<text class="small" x="581.8" y="395">0.837</text>
+<text class="small" x="462" y="422" text-anchor="end">student_t|class_full|s=0.25|nu=5</text>
+<rect x="470" y="409" width="98.3" height="18" fill="#D55E00"/>
+<text class="small" x="573.3" y="422">0.835</text>
+<text class="small" x="462" y="449" text-anchor="end">student_t|class_full|s=0.1|nu=10</text>
+<rect x="470" y="436" width="94.6" height="18" fill="#D55E00"/>
+<text class="small" x="569.6" y="449">0.834</text>
+<text class="small" x="462" y="476" text-anchor="end">student_t|class_full|s=0.25|nu=3</text>
+<rect x="470" y="463" width="86.7" height="18" fill="#D55E00"/>
+<text class="small" x="561.7" y="476">0.831</text>
+<text class="small" x="462" y="503" text-anchor="end">gaussian|class_full|s=0.25</text>
+<rect x="470" y="490" width="81.8" height="18" fill="#0072B2"/>
+<text class="small" x="556.8" y="503">0.830</text>
+<text class="small" x="462" y="530" text-anchor="end">gaussian|class_full|s=0.1</text>
+<rect x="470" y="517" width="73.2" height="18" fill="#0072B2"/>
+<text class="small" x="548.2" y="530">0.827</text>
+<text class="small" x="462" y="557" text-anchor="end">student_t|class_full|s=0.1|nu=5</text>
+<rect x="470" y="544" width="71.0" height="18" fill="#D55E00"/>
+<text class="small" x="546.0" y="557">0.826</text>
+<text class="small" x="462" y="584" text-anchor="end">student_t|class_full|s=0.03|nu=30</text>
+<rect x="470" y="571" width="69.2" height="18" fill="#D55E00"/>
+<text class="small" x="544.2" y="584">0.826</text>
+<text class="small" x="462" y="611" text-anchor="end">student_t|class_full|s=0.1|nu=3</text>
+<rect x="470" y="598" width="55.4" height="18" fill="#D55E00"/>
+<text class="small" x="530.4" y="611">0.822</text>
+<text class="small" x="462" y="638" text-anchor="end">student_t|class_full|s=0.03|nu=10</text>
+<rect x="470" y="625" width="54.1" height="18" fill="#D55E00"/>
+<text class="small" x="529.1" y="638">0.821</text>
+<text class="small" x="462" y="665" text-anchor="end">gaussian|class_full|s=0.03</text>
+<rect x="470" y="652" width="45.5" height="18" fill="#0072B2"/>
+<text class="small" x="520.5" y="665">0.819</text>
+<text class="small" x="462" y="692" text-anchor="end">student_t|class_diagonal|s=0.75|nu=30</text>
+<rect x="470" y="679" width="33.9" height="18" fill="#D55E00"/>
+<text class="small" x="508.9" y="692">0.815</text>
+<text class="small" x="462" y="719" text-anchor="end">student_t|class_diagonal|s=0.75|nu=10</text>
+<rect x="470" y="706" width="33.4" height="18" fill="#D55E00"/>
+<text class="small" x="508.4" y="719">0.815</text>
+</svg>

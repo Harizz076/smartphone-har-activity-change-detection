@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="480" viewBox="0 0 760 480" role="img">
+<title>Best validation score by likelihood</title><desc>Best subject-disjoint balanced accuracy within each likelihood family.</desc>
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#222}.title{font-size:18px;font-weight:bold}.label{font-size:12px}.small{font-size:10px}</style>
+<text class="title" x="380.0" y="27" text-anchor="middle">Best validation score by likelihood</text>
+<rect x="190" y="264.3" width="110" height="120.7" fill="#0072B2"/>
+<text class="label" x="245.0" y="256.3" text-anchor="middle">0.878</text>
+<text class="label" x="245.0" y="407" text-anchor="middle">gaussian</text>
+<rect x="370" y="261.5" width="110" height="123.5" fill="#D55E00"/>
+<text class="label" x="425.0" y="253.5" text-anchor="middle">0.880</text>
+<text class="label" x="425.0" y="407" text-anchor="middle">student_t</text>
+<rect x="550" y="352.3" width="110" height="32.7" fill="#009E73"/>
+<text class="label" x="605.0" y="344.3" text-anchor="middle">0.824</text>
+<text class="label" x="605.0" y="407" text-anchor="middle">laplace</text>
+<text class="small" x="100" y="462">Axis begins at 0.80; family tuning spaces differ.</text>
+</svg>
