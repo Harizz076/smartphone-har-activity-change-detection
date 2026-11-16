@@ -1,0 +1,31 @@
+{
+  "uci_training_windows": 7352,
+  "uci_feature_correlation_highlights": {
+    "still": {
+      "feature_a": "log Var(z)",
+      "feature_b": "log Var(y)",
+      "r": 0.8604438798783736
+    },
+    "moving": {
+      "feature_a": "log jerk",
+      "feature_b": "log Var(x)",
+      "r": 0.7249250668879219
+    }
+  },
+  "wisdm_streams": 15401,
+  "wisdm_transition_plotted": [
+    "Upstairs",
+    "Downstairs"
+  ],
+  "wisdm_still_acf": [
+    1.0,
+    0.9016373704815765,
+    0.7443989732502749,
+    0.5788976166235108,
+    0.4274089398204876,
+    0.30246097968069197,
+    0.23036025885929723,
+    0.18559181255883664,
+    0.1604056966637883
+  ]
+}

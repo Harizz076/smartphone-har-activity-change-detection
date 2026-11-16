@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="690" viewBox="0 0 1320 690">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#222} .small{font-size:11px}.label{font-size:12px}.title{font-size:18px;font-weight:bold}</style>
+<text class="title" x="660.0" y="28" text-anchor="middle">UCI training-window feature correlations</text>
+<text class="label" x="310.0" y="92" text-anchor="middle">Still</text>
+<text class="small" x="122" y="160.0" text-anchor="end">log Var(x)</text>
+<rect x="130" y="120" width="72" height="72" fill="rgb(255,125,125)" stroke="white"/>
+<text class="small" x="166.0" y="160.0" text-anchor="middle">1.00</text>
+<rect x="202" y="120" width="72" height="72" fill="rgb(255,156,156)" stroke="white"/>
+<text class="small" x="238.0" y="160.0" text-anchor="middle">0.75</text>
+<rect x="274" y="120" width="72" height="72" fill="rgb(255,158,158)" stroke="white"/>
+<text class="small" x="310.0" y="160.0" text-anchor="middle">0.75</text>
+<rect x="346" y="120" width="72" height="72" fill="rgb(255,149,149)" stroke="white"/>
+<text class="small" x="382.0" y="160.0" text-anchor="middle">0.81</text>
+<rect x="418" y="120" width="72" height="72" fill="rgb(255,141,141)" stroke="white"/>
+<text class="small" x="454.0" y="160.0" text-anchor="middle">0.87</text>
+<text class="small" x="122" y="232.0" text-anchor="end">log Var(y)</text>
+<rect x="130" y="192" width="72" height="72" fill="rgb(255,156,156)" stroke="white"/>
+<text class="small" x="166.0" y="232.0" text-anchor="middle">0.75</text>
+<rect x="202" y="192" width="72" height="72" fill="rgb(255,125,125)" stroke="white"/>
+<text class="small" x="238.0" y="232.0" text-anchor="middle">1.00</text>
+<rect x="274" y="192" width="72" height="72" fill="rgb(255,143,143)" stroke="white"/>
+<text class="small" x="310.0" y="232.0" text-anchor="middle">0.86</text>
+<rect x="346" y="192" width="72" height="72" fill="rgb(255,143,143)" stroke="white"/>
+<text class="small" x="382.0" y="232.0" text-anchor="middle">0.86</text>
+<rect x="418" y="192" width="72" height="72" fill="rgb(255,132,132)" stroke="white"/>
+<text class="small" x="454.0" y="232.0" text-anchor="middle">0.95</text>
+<text class="small" x="122" y="304.0" text-anchor="end">log Var(z)</text>
+<rect x="130" y="264" width="72" height="72" fill="rgb(255,158,158)" stroke="white"/>
+<text class="small" x="166.0" y="304.0" text-anchor="middle">0.75</text>
+<rect x="202" y="264" width="72" height="72" fill="rgb(255,143,143)" stroke="white"/>
+<text class="small" x="238.0" y="304.0" text-anchor="middle">0.86</text>
+<rect x="274" y="264" width="72" height="72" fill="rgb(255,125,125)" stroke="white"/>
+<text class="small" x="310.0" y="304.0" text-anchor="middle">1.00</text>
+<rect x="346" y="264" width="72" height="72" fill="rgb(255,145,145)" stroke="white"/>
+<text class="small" x="382.0" y="304.0" text-anchor="middle">0.84</text>
+<rect x="418" y="264" width="72" height="72" fill="rgb(255,132,132)" stroke="white"/>
+<text class="small" x="454.0" y="304.0" text-anchor="middle">0.94</text>
+<text class="small" x="122" y="376.0" text-anchor="end">log jerk</text>
+<rect x="130" y="336" width="72" height="72" fill="rgb(255,149,149)" stroke="white"/>
+<text class="small" x="166.0" y="376.0" text-anchor="middle">0.81</text>
+<rect x="202" y="336" width="72" height="72" fill="rgb(255,143,143)" stroke="white"/>
+<text class="small" x="238.0" y="376.0" text-anchor="middle">0.86</text>
+<rect x="274" y="336" width="72" height="72" fill="rgb(255,145,145)" stroke="white"/>
+<text class="small" x="310.0" y="376.0" text-anchor="middle">0.84</text>
+<rect x="346" y="336" width="72" height="72" fill="rgb(255,125,125)" stroke="white"/>
+<text class="small" x="382.0" y="376.0" text-anchor="middle">1.00</text>
+<rect x="418" y="336" width="72" height="72" fill="rgb(255,140,140)" stroke="white"/>
+<text class="small" x="454.0" y="376.0" text-anchor="middle">0.88</text>
+<text class="small" x="122" y="448.0" text-anchor="end">log mean Var</text>
+<rect x="130" y="408" width="72" height="72" fill="rgb(255,141,141)" stroke="white"/>
+<text class="small" x="166.0" y="448.0" text-anchor="middle">0.87</text>
+<rect x="202" y="408" width="72" height="72" fill="rgb(255,132,132)" stroke="white"/>
+<text class="small" x="238.0" y="448.0" text-anchor="middle">0.95</text>
+<rect x="274" y="408" width="72" height="72" fill="rgb(255,132,132)" stroke="white"/>
+<text class="small" x="310.0" y="448.0" text-anchor="middle">0.94</text>
+<rect x="346" y="408" width="72" height="72" fill="rgb(255,140,140)" stroke="white"/>
+<text class="small" x="382.0" y="448.0" text-anchor="middle">0.88</text>
+<rect x="418" y="408" width="72" height="72" fill="rgb(255,125,125)" stroke="white"/>
+<text class="small" x="454.0" y="448.0" text-anchor="middle">1.00</text>
+<text class="small" x="166.0" y="496" text-anchor="end" transform="rotate(-35 166.0 496)">log Var(x)</text>
+<text class="small" x="238.0" y="496" text-anchor="end" transform="rotate(-35 238.0 496)">log Var(y)</text>
+<text class="small" x="310.0" y="496" text-anchor="end" transform="rotate(-35 310.0 496)">log Var(z)</text>
+<text class="small" x="382.0" y="496" text-anchor="end" transform="rotate(-35 382.0 496)">log jerk</text>
+<text class="small" x="454.0" y="496" text-anchor="end" transform="rotate(-35 454.0 496)">log mean Var</text>
+<text class="label" x="960.0" y="92" text-anchor="middle">Moving</text>
+<text class="small" x="772" y="160.0" text-anchor="end">log Var(x)</text>
+<rect x="780" y="120" width="72" height="72" fill="rgb(255,125,125)" stroke="white"/>
+<text class="small" x="816.0" y="160.0" text-anchor="middle">1.00</text>
+<rect x="852" y="120" width="72" height="72" fill="rgb(255,193,193)" stroke="white"/>
+<text class="small" x="888.0" y="160.0" text-anchor="middle">0.48</text>
+<rect x="924" y="120" width="72" height="72" fill="rgb(255,233,233)" stroke="white"/>
+<text class="small" x="960.0" y="160.0" text-anchor="middle">0.16</text>
+<rect x="996" y="120" width="72" height="72" fill="rgb(255,160,160)" stroke="white"/>
+<text class="small" x="1032.0" y="160.0" text-anchor="middle">0.72</text>
+<rect x="1068" y="120" width="72" height="72" fill="rgb(255,132,132)" stroke="white"/>
+<text class="small" x="1104.0" y="160.0" text-anchor="middle">0.94</text>
+<text class="small" x="772" y="232.0" text-anchor="end">log Var(y)</text>
+<rect x="780" y="192" width="72" height="72" fill="rgb(255,193,193)" stroke="white"/>
+<text class="small" x="816.0" y="232.0" text-anchor="middle">0.48</text>
+<rect x="852" y="192" width="72" height="72" fill="rgb(255,125,125)" stroke="white"/>
+<text class="small" x="888.0" y="232.0" text-anchor="middle">1.00</text>
+<rect x="924" y="192" width="72" height="72" fill="rgb(255,236,236)" stroke="white"/>
+<text class="small" x="960.0" y="232.0" text-anchor="middle">0.14</text>
+<rect x="996" y="192" width="72" height="72" fill="rgb(255,173,173)" stroke="white"/>
+<text class="small" x="1032.0" y="232.0" text-anchor="middle">0.63</text>
+<rect x="1068" y="192" width="72" height="72" fill="rgb(255,172,172)" stroke="white"/>
+<text class="small" x="1104.0" y="232.0" text-anchor="middle">0.64</text>
+<text class="small" x="772" y="304.0" text-anchor="end">log Var(z)</text>
+<rect x="780" y="264" width="72" height="72" fill="rgb(255,233,233)" stroke="white"/>
+<text class="small" x="816.0" y="304.0" text-anchor="middle">0.16</text>
+<rect x="852" y="264" width="72" height="72" fill="rgb(255,236,236)" stroke="white"/>
+<text class="small" x="888.0" y="304.0" text-anchor="middle">0.14</text>
+<rect x="924" y="264" width="72" height="72" fill="rgb(255,125,125)" stroke="white"/>
+<text class="small" x="960.0" y="304.0" text-anchor="middle">1.00</text>
+<rect x="996" y="264" width="72" height="72" fill="rgb(255,215,215)" stroke="white"/>
+<text class="small" x="1032.0" y="304.0" text-anchor="middle">0.30</text>
+<rect x="1068" y="264" width="72" height="72" fill="rgb(255,203,203)" stroke="white"/>
+<text class="small" x="1104.0" y="304.0" text-anchor="middle">0.40</text>
+<text class="small" x="772" y="376.0" text-anchor="end">log jerk</text>
+<rect x="780" y="336" width="72" height="72" fill="rgb(255,160,160)" stroke="white"/>
+<text class="small" x="816.0" y="376.0" text-anchor="middle">0.72</text>
+<rect x="852" y="336" width="72" height="72" fill="rgb(255,173,173)" stroke="white"/>
+<text class="small" x="888.0" y="376.0" text-anchor="middle">0.63</text>
+<rect x="924" y="336" width="72" height="72" fill="rgb(255,215,215)" stroke="white"/>
+<text class="small" x="960.0" y="376.0" text-anchor="middle">0.30</text>
+<rect x="996" y="336" width="72" height="72" fill="rgb(255,125,125)" stroke="white"/>
+<text class="small" x="1032.0" y="376.0" text-anchor="middle">1.00</text>
+<rect x="1068" y="336" width="72" height="72" fill="rgb(255,152,152)" stroke="white"/>
+<text class="small" x="1104.0" y="376.0" text-anchor="middle">0.79</text>
+<text class="small" x="772" y="448.0" text-anchor="end">log mean Var</text>
+<rect x="780" y="408" width="72" height="72" fill="rgb(255,132,132)" stroke="white"/>
+<text class="small" x="816.0" y="448.0" text-anchor="middle">0.94</text>
+<rect x="852" y="408" width="72" height="72" fill="rgb(255,172,172)" stroke="white"/>
+<text class="small" x="888.0" y="448.0" text-anchor="middle">0.64</text>
+<rect x="924" y="408" width="72" height="72" fill="rgb(255,203,203)" stroke="white"/>
+<text class="small" x="960.0" y="448.0" text-anchor="middle">0.40</text>
+<rect x="996" y="408" width="72" height="72" fill="rgb(255,152,152)" stroke="white"/>
+<text class="small" x="1032.0" y="448.0" text-anchor="middle">0.79</text>
+<rect x="1068" y="408" width="72" height="72" fill="rgb(255,125,125)" stroke="white"/>
+<text class="small" x="1104.0" y="448.0" text-anchor="middle">1.00</text>
+<text class="small" x="816.0" y="496" text-anchor="end" transform="rotate(-35 816.0 496)">log Var(x)</text>
+<text class="small" x="888.0" y="496" text-anchor="end" transform="rotate(-35 888.0 496)">log Var(y)</text>
+<text class="small" x="960.0" y="496" text-anchor="end" transform="rotate(-35 960.0 496)">log Var(z)</text>
+<text class="small" x="1032.0" y="496" text-anchor="end" transform="rotate(-35 1032.0 496)">log jerk</text>
+<text class="small" x="1104.0" y="496" text-anchor="end" transform="rotate(-35 1104.0 496)">log mean Var</text>
+</svg>
