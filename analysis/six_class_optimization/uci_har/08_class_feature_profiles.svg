@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="945" height="527" viewBox="0 0 945 527" role="img">
+<title>Class feature profiles</title><desc>Training-only class mean z-scores for all fifteen features.</desc>
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#222}.title{font-size:18px;font-weight:bold}.label{font-size:12px}.small{font-size:10px}</style>
+<text class="title" x="472.5" y="27" text-anchor="middle">Class feature profiles</text>
+<text class="small" x="227" y="170.0" text-anchor="end">WALKING</text>
+<rect x="235" y="145" width="42" height="42" fill="rgb(238,207,183)" stroke="white"/>
+<rect x="277" y="145" width="42" height="42" fill="rgb(177,209,228)" stroke="white"/>
+<rect x="319" y="145" width="42" height="42" fill="rgb(191,217,231)" stroke="white"/>
+<rect x="361" y="145" width="42" height="42" fill="rgb(230,172,127)" stroke="white"/>
+<rect x="403" y="145" width="42" height="42" fill="rgb(230,168,120)" stroke="white"/>
+<rect x="445" y="145" width="42" height="42" fill="rgb(230,170,123)" stroke="white"/>
+<rect x="487" y="145" width="42" height="42" fill="rgb(246,243,240)" stroke="white"/>
+<rect x="529" y="145" width="42" height="42" fill="rgb(244,234,226)" stroke="white"/>
+<rect x="571" y="145" width="42" height="42" fill="rgb(239,211,188)" stroke="white"/>
+<rect x="613" y="145" width="42" height="42" fill="rgb(229,167,119)" stroke="white"/>
+<rect x="655" y="145" width="42" height="42" fill="rgb(228,162,109)" stroke="white"/>
+<rect x="697" y="145" width="42" height="42" fill="rgb(228,162,110)" stroke="white"/>
+<rect x="739" y="145" width="42" height="42" fill="rgb(240,213,193)" stroke="white"/>
+<rect x="781" y="145" width="42" height="42" fill="rgb(222,233,240)" stroke="white"/>
+<rect x="823" y="145" width="42" height="42" fill="rgb(231,174,129)" stroke="white"/>
+<text class="small" x="227" y="212.0" text-anchor="end">WALKING_UPSTAIRS</text>
+<rect x="235" y="187" width="42" height="42" fill="rgb(240,217,198)" stroke="white"/>
+<rect x="277" y="187" width="42" height="42" fill="rgb(147,193,219)" stroke="white"/>
+<rect x="319" y="187" width="42" height="42" fill="rgb(160,200,223)" stroke="white"/>
+<rect x="361" y="187" width="42" height="42" fill="rgb(229,168,119)" stroke="white"/>
+<rect x="403" y="187" width="42" height="42" fill="rgb(230,168,120)" stroke="white"/>
+<rect x="445" y="187" width="42" height="42" fill="rgb(229,165,114)" stroke="white"/>
+<rect x="487" y="187" width="42" height="42" fill="rgb(168,204,225)" stroke="white"/>
+<rect x="529" y="187" width="42" height="42" fill="rgb(226,236,241)" stroke="white"/>
+<rect x="571" y="187" width="42" height="42" fill="rgb(246,243,240)" stroke="white"/>
+<rect x="613" y="187" width="42" height="42" fill="rgb(230,172,126)" stroke="white"/>
+<rect x="655" y="187" width="42" height="42" fill="rgb(231,175,131)" stroke="white"/>
+<rect x="697" y="187" width="42" height="42" fill="rgb(232,181,140)" stroke="white"/>
+<rect x="739" y="187" width="42" height="42" fill="rgb(243,227,215)" stroke="white"/>
+<rect x="781" y="187" width="42" height="42" fill="rgb(172,207,226)" stroke="white"/>
+<rect x="823" y="187" width="42" height="42" fill="rgb(229,167,117)" stroke="white"/>
+<text class="small" x="227" y="254.0" text-anchor="end">WALKING_DOWNSTAIRS</text>
+<rect x="235" y="229" width="42" height="42" fill="rgb(238,208,184)" stroke="white"/>
+<rect x="277" y="229" width="42" height="42" fill="rgb(188,215,231)" stroke="white"/>
+<rect x="319" y="229" width="42" height="42" fill="rgb(196,219,233)" stroke="white"/>
+<rect x="361" y="229" width="42" height="42" fill="rgb(226,154,97)" stroke="white"/>
+<rect x="403" y="229" width="42" height="42" fill="rgb(229,165,115)" stroke="white"/>
+<rect x="445" y="229" width="42" height="42" fill="rgb(229,166,116)" stroke="white"/>
+<rect x="487" y="229" width="42" height="42" fill="rgb(130,184,214)" stroke="white"/>
+<rect x="529" y="229" width="42" height="42" fill="rgb(231,239,243)" stroke="white"/>
+<rect x="571" y="229" width="42" height="42" fill="rgb(244,234,226)" stroke="white"/>
+<rect x="613" y="229" width="42" height="42" fill="rgb(226,154,97)" stroke="white"/>
+<rect x="655" y="229" width="42" height="42" fill="rgb(228,160,107)" stroke="white"/>
+<rect x="697" y="229" width="42" height="42" fill="rgb(226,154,98)" stroke="white"/>
+<rect x="739" y="229" width="42" height="42" fill="rgb(238,207,182)" stroke="white"/>
+<rect x="781" y="229" width="42" height="42" fill="rgb(201,222,234)" stroke="white"/>
+<rect x="823" y="229" width="42" height="42" fill="rgb(227,157,102)" stroke="white"/>
+<text class="small" x="227" y="296.0" text-anchor="end">SITTING</text>
+<rect x="235" y="271" width="42" height="42" fill="rgb(240,217,198)" stroke="white"/>
+<rect x="277" y="271" width="42" height="42" fill="rgb(242,223,209)" stroke="white"/>
+<rect x="319" y="271" width="42" height="42" fill="rgb(244,232,223)" stroke="white"/>
+<rect x="361" y="271" width="42" height="42" fill="rgb(130,184,214)" stroke="white"/>
+<rect x="403" y="271" width="42" height="42" fill="rgb(135,187,216)" stroke="white"/>
+<rect x="445" y="271" width="42" height="42" fill="rgb(143,191,218)" stroke="white"/>
+<rect x="487" y="271" width="42" height="42" fill="rgb(237,242,244)" stroke="white"/>
+<rect x="529" y="271" width="42" height="42" fill="rgb(232,239,243)" stroke="white"/>
+<rect x="571" y="271" width="42" height="42" fill="rgb(245,240,236)" stroke="white"/>
+<rect x="613" y="271" width="42" height="42" fill="rgb(134,186,216)" stroke="white"/>
+<rect x="655" y="271" width="42" height="42" fill="rgb(136,187,216)" stroke="white"/>
+<rect x="697" y="271" width="42" height="42" fill="rgb(139,189,217)" stroke="white"/>
+<rect x="739" y="271" width="42" height="42" fill="rgb(207,225,236)" stroke="white"/>
+<rect x="781" y="271" width="42" height="42" fill="rgb(239,211,189)" stroke="white"/>
+<rect x="823" y="271" width="42" height="42" fill="rgb(135,187,216)" stroke="white"/>
+<text class="small" x="227" y="338.0" text-anchor="end">STANDING</text>
+<rect x="235" y="313" width="42" height="42" fill="rgb(238,206,181)" stroke="white"/>
+<rect x="277" y="313" width="42" height="42" fill="rgb(183,213,229)" stroke="white"/>
+<rect x="319" y="313" width="42" height="42" fill="rgb(204,224,235)" stroke="white"/>
+<rect x="361" y="313" width="42" height="42" fill="rgb(131,185,215)" stroke="white"/>
+<rect x="403" y="313" width="42" height="42" fill="rgb(156,198,222)" stroke="white"/>
+<rect x="445" y="313" width="42" height="42" fill="rgb(148,194,219)" stroke="white"/>
+<rect x="487" y="313" width="42" height="42" fill="rgb(239,211,189)" stroke="white"/>
+<rect x="529" y="313" width="42" height="42" fill="rgb(242,224,210)" stroke="white"/>
+<rect x="571" y="313" width="42" height="42" fill="rgb(241,220,203)" stroke="white"/>
+<rect x="613" y="313" width="42" height="42" fill="rgb(140,189,217)" stroke="white"/>
+<rect x="655" y="313" width="42" height="42" fill="rgb(149,194,220)" stroke="white"/>
+<rect x="697" y="313" width="42" height="42" fill="rgb(142,191,218)" stroke="white"/>
+<rect x="739" y="313" width="42" height="42" fill="rgb(185,213,230)" stroke="white"/>
+<rect x="781" y="313" width="42" height="42" fill="rgb(239,212,190)" stroke="white"/>
+<rect x="823" y="313" width="42" height="42" fill="rgb(146,193,219)" stroke="white"/>
+<text class="small" x="227" y="380.0" text-anchor="end">LAYING</text>
+<rect x="235" y="355" width="42" height="42" fill="rgb(0,114,178)" stroke="white"/>
+<rect x="277" y="355" width="42" height="42" fill="rgb(219,120,41)" stroke="white"/>
+<rect x="319" y="355" width="42" height="42" fill="rgb(224,141,76)" stroke="white"/>
+<rect x="361" y="355" width="42" height="42" fill="rgb(160,200,223)" stroke="white"/>
+<rect x="403" y="355" width="42" height="42" fill="rgb(138,188,217)" stroke="white"/>
+<rect x="445" y="355" width="42" height="42" fill="rgb(138,188,216)" stroke="white"/>
+<rect x="487" y="355" width="42" height="42" fill="rgb(235,192,158)" stroke="white"/>
+<rect x="529" y="355" width="42" height="42" fill="rgb(234,240,243)" stroke="white"/>
+<rect x="571" y="355" width="42" height="42" fill="rgb(123,180,212)" stroke="white"/>
+<rect x="613" y="355" width="42" height="42" fill="rgb(146,192,219)" stroke="white"/>
+<rect x="655" y="355" width="42" height="42" fill="rgb(138,188,217)" stroke="white"/>
+<rect x="697" y="355" width="42" height="42" fill="rgb(142,190,218)" stroke="white"/>
+<rect x="739" y="355" width="42" height="42" fill="rgb(228,237,242)" stroke="white"/>
+<rect x="781" y="355" width="42" height="42" fill="rgb(247,245,244)" stroke="white"/>
+<rect x="823" y="355" width="42" height="42" fill="rgb(145,192,218)" stroke="white"/>
+<text class="small" x="256.0" y="137" text-anchor="end" transform="rotate(-45 256.0 137)">mean_x</text>
+<text class="small" x="298.0" y="137" text-anchor="end" transform="rotate(-45 298.0 137)">mean_y</text>
+<text class="small" x="340.0" y="137" text-anchor="end" transform="rotate(-45 340.0 137)">mean_z</text>
+<text class="small" x="382.0" y="137" text-anchor="end" transform="rotate(-45 382.0 137)">log_variance_x</text>
+<text class="small" x="424.0" y="137" text-anchor="end" transform="rotate(-45 424.0 137)">log_variance_y</text>
+<text class="small" x="466.0" y="137" text-anchor="end" transform="rotate(-45 466.0 137)">log_variance_z</text>
+<text class="small" x="508.0" y="137" text-anchor="end" transform="rotate(-45 508.0 137)">correlation_xy</text>
+<text class="small" x="550.0" y="137" text-anchor="end" transform="rotate(-45 550.0 137)">correlation_xz</text>
+<text class="small" x="592.0" y="137" text-anchor="end" transform="rotate(-45 592.0 137)">correlation_yz</text>
+<text class="small" x="634.0" y="137" text-anchor="end" transform="rotate(-45 634.0 137)">log_jerk_x</text>
+<text class="small" x="676.0" y="137" text-anchor="end" transform="rotate(-45 676.0 137)">log_jerk_y</text>
+<text class="small" x="718.0" y="137" text-anchor="end" transform="rotate(-45 718.0 137)">log_jerk_z</text>
+<text class="small" x="760.0" y="137" text-anchor="end" transform="rotate(-45 760.0 137)">dominant_frequency_hz</text>
+<text class="small" x="802.0" y="137" text-anchor="end" transform="rotate(-45 802.0 137)">spectral_entropy</text>
+<text class="small" x="844.0" y="137" text-anchor="end" transform="rotate(-45 844.0 137)">log_band_power</text>
+<text class="small" x="235" y="502">Range shown: -2.00 to 1.67.</text>
+</svg>

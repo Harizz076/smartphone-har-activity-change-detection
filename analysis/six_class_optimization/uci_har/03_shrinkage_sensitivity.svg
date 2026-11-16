@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="480" viewBox="0 0 850 480" role="img">
+<title>Shrinkage sensitivity for selected family</title><desc>Validation balanced accuracy across covariance shrinkage values.</desc>
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#222}.title{font-size:18px;font-weight:bold}.label{font-size:12px}.small{font-size:10px}</style>
+<text class="title" x="425.0" y="27" text-anchor="middle">Shrinkage sensitivity for selected family</text>
+<circle cx="90.0" cy="115.2" r="5" fill="#0072B2"/>
+<text class="small" x="90.0" y="106.2" text-anchor="middle">0.869</text>
+<circle cx="96.9" cy="100.0" r="5" fill="#0072B2"/>
+<text class="small" x="96.9" y="91.0" text-anchor="middle">0.875</text>
+<circle cx="110.7" cy="91.6" r="5" fill="#0072B2"/>
+<text class="small" x="110.7" y="82.6" text-anchor="middle">0.878</text>
+<circle cx="159.0" cy="113.0" r="5" fill="#0072B2"/>
+<text class="small" x="159.0" y="104.0" text-anchor="middle">0.870</text>
+<circle cx="262.5" cy="182.0" r="5" fill="#0072B2"/>
+<text class="small" x="262.5" y="173.0" text-anchor="middle">0.844</text>
+<circle cx="435.0" cy="252.0" r="5" fill="#0072B2"/>
+<text class="small" x="435.0" y="243.0" text-anchor="middle">0.818</text>
+<circle cx="607.5" cy="291.8" r="5" fill="#0072B2"/>
+<text class="small" x="607.5" y="282.8" text-anchor="middle">0.803</text>
+<circle cx="780.0" cy="368.4" r="5" fill="#0072B2"/>
+<text class="small" x="780.0" y="359.4" text-anchor="middle">0.774</text>
+<polyline fill="none" stroke="#0072B2" stroke-width="2" points="90.0,115.2 96.9,100.0 110.7,91.6 159.0,113.0 262.5,182.0 435.0,252.0 607.5,291.8 780.0,368.4"/>
+<rect x="90" y="65" width="690" height="330" fill="none" stroke="#777"/>
+<text class="label" x="435.0" y="460" text-anchor="middle">Covariance shrinkage λ</text>
+<text class="small" x="90" y="413">0</text>
+<text class="small" x="780" y="413" text-anchor="end">1</text>
+</svg>

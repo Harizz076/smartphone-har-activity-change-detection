@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520" role="img">
+<title>Per-class recall: validation and held-out test</title><desc>Grouped bars compare subject-disjoint validation recall with held-out recall; values are printed on bars.</desc>
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#222}.title{font-size:18px;font-weight:bold}.label{font-size:12px}.small{font-size:10px}</style>
+<text class="title" x="550.0" y="27" text-anchor="middle">Per-class recall: validation and held-out test</text>
+<text class="label" x="220" y="94" text-anchor="end">Walking</text>
+<rect x="230" y="74" width="657.8" height="18" fill="#0072B2"/>
+<rect x="230" y="97" width="592.2" height="18" fill="#D55E00"/>
+<text class="small" x="891.8" y="87">CV 83.3%</text>
+<text class="small" x="826.2" y="110">test 75.0%</text>
+<text class="label" x="220" y="156" text-anchor="end">Jogging</text>
+<rect x="230" y="136" width="724.8" height="18" fill="#0072B2"/>
+<rect x="230" y="159" width="704.1" height="18" fill="#D55E00"/>
+<text class="small" x="958.8" y="149">CV 91.7%</text>
+<text class="small" x="938.1" y="172">test 89.1%</text>
+<text class="label" x="220" y="218" text-anchor="end">Upstairs</text>
+<rect x="230" y="198" width="492.8" height="18" fill="#0072B2"/>
+<rect x="230" y="221" width="291.6" height="18" fill="#D55E00"/>
+<text class="small" x="726.8" y="211">CV 62.4%</text>
+<text class="small" x="525.6" y="234">test 36.9%</text>
+<text class="label" x="220" y="280" text-anchor="end">Downstairs</text>
+<rect x="230" y="260" width="590.5" height="18" fill="#0072B2"/>
+<rect x="230" y="283" width="698.0" height="18" fill="#D55E00"/>
+<text class="small" x="824.5" y="273">CV 74.7%</text>
+<text class="small" x="932.0" y="296">test 88.4%</text>
+<text class="label" x="220" y="342" text-anchor="end">Sitting</text>
+<rect x="230" y="322" width="746.1" height="18" fill="#0072B2"/>
+<rect x="230" y="345" width="640.8" height="18" fill="#D55E00"/>
+<text class="small" x="980.1" y="335">CV 94.4%</text>
+<text class="small" x="874.8" y="358">test 81.1%</text>
+<text class="label" x="220" y="404" text-anchor="end">Standing</text>
+<rect x="230" y="384" width="773.2" height="18" fill="#0072B2"/>
+<rect x="230" y="407" width="790.0" height="18" fill="#D55E00"/>
+<text class="small" x="1007.2" y="397">CV 97.9%</text>
+<text class="small" x="1024.0" y="420">test 100.0%</text>
+</svg>

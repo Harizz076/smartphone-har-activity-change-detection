@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700" role="img">
+<title>Optimized held-out confusion matrix</title><desc>Rows are actual activities and columns are predicted activities; cells show count and row percentage.</desc>
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#222}.title{font-size:18px;font-weight:bold}.label{font-size:12px}.small{font-size:10px}</style>
+<text class="title" x="450.0" y="27" text-anchor="middle">Optimized held-out confusion matrix</text>
+<text class="small" x="329.0" y="95" text-anchor="end" transform="rotate(-35 329.0 95)">WALKING</text>
+<text class="small" x="407.0" y="95" text-anchor="end" transform="rotate(-35 407.0 95)">WALKING_UPSTAIRS</text>
+<text class="small" x="485.0" y="95" text-anchor="end" transform="rotate(-35 485.0 95)">WALKING_DOWNSTAIRS</text>
+<text class="small" x="563.0" y="95" text-anchor="end" transform="rotate(-35 563.0 95)">SITTING</text>
+<text class="small" x="641.0" y="95" text-anchor="end" transform="rotate(-35 641.0 95)">STANDING</text>
+<text class="small" x="719.0" y="95" text-anchor="end" transform="rotate(-35 719.0 95)">LAYING</text>
+<text class="small" x="282" y="148.0" text-anchor="end">WALKING</text>
+<rect x="290" y="105" width="78" height="78" fill="rgb(88,179,227)" stroke="white"/>
+<text class="small" x="329.0" y="141.0" text-anchor="middle">456</text>
+<text class="small" x="329.0" y="157.0" text-anchor="middle">92%</text>
+<rect x="368" y="105" width="78" height="78" fill="rgb(242,246,249)" stroke="white"/>
+<text class="small" x="407.0" y="141.0" text-anchor="middle">8</text>
+<text class="small" x="407.0" y="157.0" text-anchor="middle">2%</text>
+<rect x="446" y="105" width="78" height="78" fill="rgb(234,243,248)" stroke="white"/>
+<text class="small" x="485.0" y="141.0" text-anchor="middle">31</text>
+<text class="small" x="485.0" y="157.0" text-anchor="middle">6%</text>
+<rect x="524" y="105" width="78" height="78" fill="rgb(245,248,250)" stroke="white"/>
+<text class="small" x="563.0" y="141.0" text-anchor="middle">0</text>
+<text class="small" x="563.0" y="157.0" text-anchor="middle">0%</text>
+<rect x="602" y="105" width="78" height="78" fill="rgb(244,247,249)" stroke="white"/>
+<text class="small" x="641.0" y="141.0" text-anchor="middle">1</text>
+<text class="small" x="641.0" y="157.0" text-anchor="middle">0%</text>
+<rect x="680" y="105" width="78" height="78" fill="rgb(245,248,250)" stroke="white"/>
+<text class="small" x="719.0" y="141.0" text-anchor="middle">0</text>
+<text class="small" x="719.0" y="157.0" text-anchor="middle">0%</text>
+<text class="small" x="282" y="226.0" text-anchor="end">WALKING_UPSTAIRS</text>
+<rect x="290" y="183" width="78" height="78" fill="rgb(233,243,248)" stroke="white"/>
+<text class="small" x="329.0" y="219.0" text-anchor="middle">31</text>
+<text class="small" x="329.0" y="235.0" text-anchor="middle">7%</text>
+<rect x="368" y="183" width="78" height="78" fill="rgb(98,183,228)" stroke="white"/>
+<text class="small" x="407.0" y="219.0" text-anchor="middle">406</text>
+<text class="small" x="407.0" y="235.0" text-anchor="middle">86%</text>
+<rect x="446" y="183" width="78" height="78" fill="rgb(235,243,248)" stroke="white"/>
+<text class="small" x="485.0" y="219.0" text-anchor="middle">27</text>
+<text class="small" x="485.0" y="235.0" text-anchor="middle">6%</text>
+<rect x="524" y="183" width="78" height="78" fill="rgb(245,248,250)" stroke="white"/>
+<text class="small" x="563.0" y="219.0" text-anchor="middle">0</text>
+<text class="small" x="563.0" y="235.0" text-anchor="middle">0%</text>
+<rect x="602" y="183" width="78" height="78" fill="rgb(242,246,249)" stroke="white"/>
+<text class="small" x="641.0" y="219.0" text-anchor="middle">7</text>
+<text class="small" x="641.0" y="235.0" text-anchor="middle">1%</text>
+<rect x="680" y="183" width="78" height="78" fill="rgb(245,248,250)" stroke="white"/>
+<text class="small" x="719.0" y="219.0" text-anchor="middle">0</text>
+<text class="small" x="719.0" y="235.0" text-anchor="middle">0%</text>
+<text class="small" x="282" y="304.0" text-anchor="end">WALKING_DOWNSTAIRS</text>
+<rect x="290" y="261" width="78" height="78" fill="rgb(240,245,249)" stroke="white"/>
+<text class="small" x="329.0" y="297.0" text-anchor="middle">12</text>
+<text class="small" x="329.0" y="313.0" text-anchor="middle">3%</text>
+<rect x="368" y="261" width="78" height="78" fill="rgb(237,244,248)" stroke="white"/>
+<text class="small" x="407.0" y="297.0" text-anchor="middle">18</text>
+<text class="small" x="407.0" y="313.0" text-anchor="middle">4%</text>
+<rect x="446" y="261" width="78" height="78" fill="rgb(87,178,226)" stroke="white"/>
+<text class="small" x="485.0" y="297.0" text-anchor="middle">390</text>
+<text class="small" x="485.0" y="313.0" text-anchor="middle">93%</text>
+<rect x="524" y="261" width="78" height="78" fill="rgb(245,248,250)" stroke="white"/>
+<text class="small" x="563.0" y="297.0" text-anchor="middle">0</text>
+<text class="small" x="563.0" y="313.0" text-anchor="middle">0%</text>
+<rect x="602" y="261" width="78" height="78" fill="rgb(245,248,250)" stroke="white"/>
+<text class="small" x="641.0" y="297.0" text-anchor="middle">0</text>
+<text class="small" x="641.0" y="313.0" text-anchor="middle">0%</text>
+<rect x="680" y="261" width="78" height="78" fill="rgb(245,248,250)" stroke="white"/>
+<text class="small" x="719.0" y="297.0" text-anchor="middle">0</text>
+<text class="small" x="719.0" y="313.0" text-anchor="middle">0%</text>
+<text class="small" x="282" y="382.0" text-anchor="end">SITTING</text>
+<rect x="290" y="339" width="78" height="78" fill="rgb(245,248,250)" stroke="white"/>
+<text class="small" x="329.0" y="375.0" text-anchor="middle">0</text>
+<text class="small" x="329.0" y="391.0" text-anchor="middle">0%</text>
+<rect x="368" y="339" width="78" height="78" fill="rgb(245,248,250)" stroke="white"/>
+<text class="small" x="407.0" y="375.0" text-anchor="middle">0</text>
+<text class="small" x="407.0" y="391.0" text-anchor="middle">0%</text>
+<rect x="446" y="339" width="78" height="78" fill="rgb(245,248,250)" stroke="white"/>
+<text class="small" x="485.0" y="375.0" text-anchor="middle">0</text>
+<text class="small" x="485.0" y="391.0" text-anchor="middle">0%</text>
+<rect x="524" y="339" width="78" height="78" fill="rgb(138,201,234)" stroke="white"/>
+<text class="small" x="563.0" y="375.0" text-anchor="middle">307</text>
+<text class="small" x="563.0" y="391.0" text-anchor="middle">63%</text>
+<rect x="602" y="339" width="78" height="78" fill="rgb(183,220,240)" stroke="white"/>
+<text class="small" x="641.0" y="375.0" text-anchor="middle">177</text>
+<text class="small" x="641.0" y="391.0" text-anchor="middle">36%</text>
+<rect x="680" y="339" width="78" height="78" fill="rgb(242,246,249)" stroke="white"/>
+<text class="small" x="719.0" y="375.0" text-anchor="middle">7</text>
+<text class="small" x="719.0" y="391.0" text-anchor="middle">1%</text>
+<text class="small" x="282" y="460.0" text-anchor="end">STANDING</text>
+<rect x="290" y="417" width="78" height="78" fill="rgb(245,248,250)" stroke="white"/>
+<text class="small" x="329.0" y="453.0" text-anchor="middle">0</text>
+<text class="small" x="329.0" y="469.0" text-anchor="middle">0%</text>
+<rect x="368" y="417" width="78" height="78" fill="rgb(245,248,250)" stroke="white"/>
+<text class="small" x="407.0" y="453.0" text-anchor="middle">0</text>
+<text class="small" x="407.0" y="469.0" text-anchor="middle">0%</text>
+<rect x="446" y="417" width="78" height="78" fill="rgb(245,248,250)" stroke="white"/>
+<text class="small" x="485.0" y="453.0" text-anchor="middle">0</text>
+<text class="small" x="485.0" y="469.0" text-anchor="middle">0%</text>
+<rect x="524" y="417" width="78" height="78" fill="rgb(233,242,248)" stroke="white"/>
+<text class="small" x="563.0" y="453.0" text-anchor="middle">37</text>
+<text class="small" x="563.0" y="469.0" text-anchor="middle">7%</text>
+<rect x="602" y="417" width="78" height="78" fill="rgb(86,178,226)" stroke="white"/>
+<text class="small" x="641.0" y="453.0" text-anchor="middle">495</text>
+<text class="small" x="641.0" y="469.0" text-anchor="middle">93%</text>
+<rect x="680" y="417" width="78" height="78" fill="rgb(245,248,250)" stroke="white"/>
+<text class="small" x="719.0" y="453.0" text-anchor="middle">0</text>
+<text class="small" x="719.0" y="469.0" text-anchor="middle">0%</text>
+<text class="small" x="282" y="538.0" text-anchor="end">LAYING</text>
+<rect x="290" y="495" width="78" height="78" fill="rgb(245,248,250)" stroke="white"/>
+<text class="small" x="329.0" y="531.0" text-anchor="middle">0</text>
+<text class="small" x="329.0" y="547.0" text-anchor="middle">0%</text>
+<rect x="368" y="495" width="78" height="78" fill="rgb(245,248,250)" stroke="white"/>
+<text class="small" x="407.0" y="531.0" text-anchor="middle">0</text>
+<text class="small" x="407.0" y="547.0" text-anchor="middle">0%</text>
+<rect x="446" y="495" width="78" height="78" fill="rgb(245,248,250)" stroke="white"/>
+<text class="small" x="485.0" y="531.0" text-anchor="middle">0</text>
+<text class="small" x="485.0" y="547.0" text-anchor="middle">0%</text>
+<rect x="524" y="495" width="78" height="78" fill="rgb(245,248,250)" stroke="white"/>
+<text class="small" x="563.0" y="531.0" text-anchor="middle">0</text>
+<text class="small" x="563.0" y="547.0" text-anchor="middle">0%</text>
+<rect x="602" y="495" width="78" height="78" fill="rgb(245,248,250)" stroke="white"/>
+<text class="small" x="641.0" y="531.0" text-anchor="middle">0</text>
+<text class="small" x="641.0" y="547.0" text-anchor="middle">0%</text>
+<rect x="680" y="495" width="78" height="78" fill="rgb(75,173,225)" stroke="white"/>
+<text class="small" x="719.0" y="531.0" text-anchor="middle">537</text>
+<text class="small" x="719.0" y="547.0" text-anchor="middle">100%</text>
+</svg>

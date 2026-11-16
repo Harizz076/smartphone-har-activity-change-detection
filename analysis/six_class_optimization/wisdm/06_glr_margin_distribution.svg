@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="950" height="500" viewBox="0 0 950 500" role="img">
+<title>GLR margin distributions</title><desc>Histograms show fractions of correct and incorrect held-out predictions after log1p transformation; values above the 99th percentile are placed in the last bin.</desc>
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#222}.title{font-size:18px;font-weight:bold}.label{font-size:12px}.small{font-size:10px}</style>
+<text class="title" x="475.0" y="27" text-anchor="middle">GLR margin distributions</text>
+<polyline fill="none" stroke="#0072B2" stroke-width="2" points="104.8,374.4 144.2,380.3 183.8,364.5 223.2,356.6 262.8,317.2 302.2,319.2 341.8,271.8 381.2,254.1 420.8,238.3 460.2,151.5 499.8,187.0 539.2,187.0 578.8,139.7 618.2,123.9 657.8,271.8 697.2,303.4 736.8,307.3 776.2,315.2 815.8,317.2 855.2,289.6"/>
+<text class="label" x="745" y="90" fill="#0072B2">Correct (n=1283)</text>
+<polyline fill="none" stroke="#D55E00" stroke-width="2" points="104.8,326.7 144.2,224.0 183.8,260.7 223.2,187.3 262.8,268.0 302.2,202.0 341.8,238.7 381.2,246.0 420.8,216.7 460.2,282.7 499.8,312.0 539.2,319.3 578.8,341.3 618.2,290.0 657.8,304.7 697.2,216.7 736.8,70.0 776.2,363.3 815.8,400.0 855.2,400.0"/>
+<text class="label" x="745" y="112" fill="#D55E00">Incorrect (n=345)</text>
+<rect x="85" y="70" width="790" height="330" fill="none" stroke="#777"/>
+<text class="label" x="480.0" y="480" text-anchor="middle">log(1 + twice-log GLR margin), clipped at p99=4.15</text>
+</svg>
