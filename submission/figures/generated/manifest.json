@@ -1,0 +1,21 @@
+{
+  "palette": {
+    "blue": "#195AA6",
+    "red": "#BE1E2D",
+    "gray": "#C7C9CC",
+    "magenta": "#D87CE6"
+  },
+  "outputs": [
+    "raw_signal_examples",
+    "performance_overview",
+    "confusion_matrices",
+    "subject_variation",
+    "confidence_coverage",
+    "rda_heatmaps"
+  ],
+  "formats": [
+    "pdf",
+    "png"
+  ],
+  "notes": "All figures use held-out results already stored in the repository. Bars start at zero. Confusion matrices are normalized within true class. Subject is the unit in the paired WISDM plot."
+}
