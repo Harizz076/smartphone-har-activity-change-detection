@@ -1,0 +1,125 @@
+{
+  "windows": 2947,
+  "accuracy": 0.8791991856124872,
+  "balanced_accuracy": 0.8776046218834798,
+  "macro_f1": 0.8766851285199015,
+  "class_order": [
+    "WALKING",
+    "WALKING_UPSTAIRS",
+    "WALKING_DOWNSTAIRS",
+    "SITTING",
+    "STANDING",
+    "LAYING"
+  ],
+  "confusion_matrix": [
+    [
+      456,
+      8,
+      31,
+      0,
+      1,
+      0
+    ],
+    [
+      31,
+      406,
+      27,
+      0,
+      7,
+      0
+    ],
+    [
+      12,
+      18,
+      390,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      307,
+      177,
+      7
+    ],
+    [
+      0,
+      0,
+      0,
+      37,
+      495,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      537
+    ]
+  ],
+  "per_class": {
+    "WALKING": {
+      "support": 496,
+      "precision": 0.9138276553106213,
+      "recall": 0.9193548387096774,
+      "f1": 0.9165829145728642
+    },
+    "WALKING_UPSTAIRS": {
+      "support": 471,
+      "precision": 0.9398148148148148,
+      "recall": 0.861995753715499,
+      "f1": 0.8992248062015505
+    },
+    "WALKING_DOWNSTAIRS": {
+      "support": 420,
+      "precision": 0.8705357142857143,
+      "recall": 0.9285714285714286,
+      "f1": 0.8986175115207374
+    },
+    "SITTING": {
+      "support": 491,
+      "precision": 0.8924418604651163,
+      "recall": 0.6252545824847251,
+      "f1": 0.7353293413173653
+    },
+    "STANDING": {
+      "support": 532,
+      "precision": 0.7279411764705882,
+      "recall": 0.9304511278195489,
+      "f1": 0.8168316831683168
+    },
+    "LAYING": {
+      "support": 537,
+      "precision": 0.9871323529411765,
+      "recall": 1.0,
+      "f1": 0.9935245143385754
+    }
+  },
+  "dataset": "UCI HAR",
+  "status": "exploratory_post_development_evaluation",
+  "gravity_aligned_features": false,
+  "feature_names": [
+    "mean_x",
+    "mean_y",
+    "mean_z",
+    "log_variance_x",
+    "log_variance_y",
+    "log_variance_z",
+    "correlation_xy",
+    "correlation_xz",
+    "correlation_yz",
+    "log_jerk_x",
+    "log_jerk_y",
+    "log_jerk_z",
+    "dominant_frequency_hz",
+    "spectral_entropy",
+    "log_band_power"
+  ],
+  "covariance_mixing_lambda": 0.0,
+  "eigenvalue_shrinkage_gamma": 0.03,
+  "ridge": 1e-06
+}

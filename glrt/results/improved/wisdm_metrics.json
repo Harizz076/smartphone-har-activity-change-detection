@@ -1,0 +1,134 @@
+{
+  "windows": 1628,
+  "accuracy": 0.8255528255528255,
+  "balanced_accuracy": 0.8073346554295348,
+  "macro_f1": 0.7814901594282461,
+  "class_order": [
+    "Walking",
+    "Jogging",
+    "Upstairs",
+    "Downstairs",
+    "Sitting",
+    "Standing"
+  ],
+  "confusion_matrix": [
+    [
+      506,
+      9,
+      31,
+      101,
+      0,
+      0
+    ],
+    [
+      6,
+      484,
+      0,
+      16,
+      0,
+      0
+    ],
+    [
+      0,
+      21,
+      70,
+      58,
+      0,
+      0
+    ],
+    [
+      1,
+      2,
+      21,
+      122,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      73,
+      17
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      89
+    ]
+  ],
+  "per_class": {
+    "Walking": {
+      "support": 647,
+      "precision": 0.98635477582846,
+      "recall": 0.7820710973724884,
+      "f1": 0.8724137931034481
+    },
+    "Jogging": {
+      "support": 506,
+      "precision": 0.937984496124031,
+      "recall": 0.9565217391304348,
+      "f1": 0.9471624266144814
+    },
+    "Upstairs": {
+      "support": 149,
+      "precision": 0.5691056910569106,
+      "recall": 0.4697986577181208,
+      "f1": 0.5147058823529411
+    },
+    "Downstairs": {
+      "support": 146,
+      "precision": 0.4107744107744108,
+      "recall": 0.8356164383561644,
+      "f1": 0.5507900677200904
+    },
+    "Sitting": {
+      "support": 90,
+      "precision": 1.0,
+      "recall": 0.8111111111111111,
+      "f1": 0.8957055214723927
+    },
+    "Standing": {
+      "support": 90,
+      "precision": 0.839622641509434,
+      "recall": 0.9888888888888889,
+      "f1": 0.9081632653061226
+    }
+  },
+  "dataset": "WISDM",
+  "status": "exploratory_post_development_evaluation",
+  "gravity_aligned_features": true,
+  "feature_names": [
+    "mean_x",
+    "mean_y",
+    "mean_z",
+    "log_variance_x",
+    "log_variance_y",
+    "log_variance_z",
+    "correlation_xy",
+    "correlation_xz",
+    "correlation_yz",
+    "log_jerk_x",
+    "log_jerk_y",
+    "log_jerk_z",
+    "dominant_frequency_hz",
+    "spectral_entropy",
+    "log_band_power",
+    "gravity_magnitude",
+    "log_dynamic_power",
+    "log_vertical_power",
+    "log_horizontal_power",
+    "log_vertical_jerk",
+    "log_horizontal_jerk",
+    "magnitude_dominant_frequency_hz",
+    "magnitude_spectral_entropy",
+    "magnitude_log_band_power"
+  ],
+  "covariance_mixing_lambda": 0.25,
+  "eigenvalue_shrinkage_gamma": 0.01,
+  "ridge": 1e-06
+}
