@@ -118,73 +118,12 @@ checks that were missing:
 - it tests several window sizes with the actual GLRT-scale statistic; and
 - it explicitly identifies WISDM v1.1 as accelerometer-only secondary data.
 
-The primary follow-up is UCI ID 341, whose raw accelerometer and gyroscope
-streams have explicit postural-transition intervals. That dataset is the proper
-place to compare raw axes versus magnitudes, accelerometer versus gyroscope,
-short versus long horizons, and event-level detection delay/false alarms across
-held-out subjects.
-
-## UCI 341/HAPT raw-stream findings
-
-The follow-up is now implemented in [`uci341_raw_audit.py`](../uci341_raw_audit.py).
-The local raw files contain 61 aligned accelerometer/gyroscope stream pairs,
-1,122,772 samples per sensor, 30 subjects, and 358 explicit postural-transition
-intervals. No paired length or label-bound violation was found.
-
-- [`06_uci341_raw_transition_examples.svg`](06_uci341_raw_transition_examples.svg)
-  shows both sensors for one representative of every transition type. The
-  gyroscope is close to zero in the stable context and responds strongly during
-  rotation; accelerometer axes often retain a new level after a posture change.
-- [`07_uci341_transition_durations.svg`](07_uci341_transition_durations.svg)
-  confirms why a single point label is inadequate. Median durations range from
-  2.59 s for sit-to-stand to 4.73 s for stand-to-lie; observed stand-to-lie
-  intervals reach 9.88 s.
-- [`08_uci341_timing_window_sensitivity.svg`](08_uci341_timing_window_sensitivity.svg)
-  compares label-defined onset, midpoint, and end. Accelerometer evidence is
-  strongest at the midpoint across the tested contexts. Gyroscope evidence is
-  strongest near the midpoint at 0.25–0.5 s per side, but the onset dominates
-  at 1–2 s. This is consistent with acceleration capturing posture/orientation
-  change and angular velocity capturing the start of rotation.
-- [`09_uci341_event_control_contrast.svg`](09_uci341_event_control_contrast.svg)
-  compares transitions with standing/sitting/lying controls at 0.5 s per side.
-  At each sensor's control 95th percentile, the optimistic best-landmark score
-  detects 243/358 transitions from acceleration and 200/358 from gyroscope.
-  Their errors differ: 132 events pass both thresholds, 111 acceleration only,
-  and 68 gyroscope only, for an optimistic union of 311/358. This directly
-  supports sensor fusion rather than selecting one sensor globally.
-  “Optimistic” matters: the score takes the best of three locations supplied by
-  the labels. A real detector must scan without knowing them and pay the
-  resulting multiple-search false-alarm cost.
-- [`10_uci341_winning_channels.svg`](10_uci341_winning_channels.svg) asks whether
-  magnitude can replace the axes. It cannot: acceleration magnitude is the
-  strongest scalar channel for only 7/358 transitions (2.0%); x/y/z win the
-  remaining 98.0%. Gyroscope magnitude wins 31.0%, while a gyroscope axis wins
-  69.0%. A compact detector should retain simple per-axis scores and fuse them
-  transparently instead of reducing both sensors to magnitude alone.
-- [`11_uci341_transition_type_rates.svg`](11_uci341_transition_type_rates.svg)
-  checks that aggregate performance is not hiding one transition type. The
-  imbalance is substantial: acceleration ranges from 56.5% for sit-to-stand to
-  82.8% for lie-to-stand, whereas gyroscope ranges from 41.4% for lie-to-stand
-  to 65.0% for sit-to-lie/lie-to-sit. This again favors class-agnostic sensor
-  fusion for detection, with optional transition naming kept as a later stage.
-
-Longer-window GLRT values are numerically larger in this UCI diagnostic because
-they contain more observations and more of the pre/post regimes. That does not
-make a two-second window automatically better: it adds delay, spans a substantial
-part of the transition, and requires its own scan-score threshold calibration.
-The result supports retaining both sensors and multiple short horizons rather
-than replacing them immediately with one long window.
-
-These are exploratory diagnostics, not held-out detection performance. They
-pool subjects, use labels to choose event landmarks, and use temporally repeated
-controls. The next implementation must scan candidate change times causally,
-fit/calibrate on training subjects only, suppress duplicate alarms, and report
-event recall, delay, and false alarms per minute on untouched subjects.
-
-The numeric results are in
-[`uci341_timing_window_sensitivity.csv`](uci341_timing_window_sensitivity.csv),
-[`uci341_event_control_contrast.csv`](uci341_event_control_contrast.csv), and
-[`uci341_audit_summary.json`](uci341_audit_summary.json).
+Because this repository intentionally retains only its original UCI HAR and
+WISDM datasets, the continuous detector remains a tested generic algorithm.
+WISDM's recording gaps prevent a broad event-level transition benchmark, and
+the packaged UCI HAR windows must not be stitched into a false continuous
+stream. This limitation is preferable to reporting an invalid transition
+evaluation.
 
 ## Method support
 

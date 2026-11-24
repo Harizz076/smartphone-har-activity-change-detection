@@ -8,7 +8,6 @@ import unittest
 import numpy as np
 
 from analysis.fundamental_signal_audit import mean_shift_glr
-from analysis.uci341_raw_audit import max_sensor_glr
 from glrt.continuous_transition_glrt import scan_glrt
 
 
@@ -29,15 +28,6 @@ class FixedBoundaryGlrtTests(unittest.TestCase):
         score, effect = mean_shift_glr([0.0, 2.0], [0.0, 2.0])
         self.assertAlmostEqual(score, 0.0, places=12)
         self.assertAlmostEqual(effect, 0.0, places=12)
-
-    def test_multichannel_wrapper_finds_a_raw_mean_shift(self) -> None:
-        data = np.zeros((20, 3), dtype=float)
-        data[:, 0] = np.tile((0.0, 0.1), 10)
-        data[10:, 0] += 2.0
-        score, channel = max_sensor_glr(data, split=10, radius=10)
-        self.assertGreater(score, 0.0)
-        self.assertIn(channel, {"x", "magnitude"})
-
 
 class ContinuousScanTests(unittest.TestCase):
     def test_common_variance_scan_localizes_mean_change(self) -> None:
