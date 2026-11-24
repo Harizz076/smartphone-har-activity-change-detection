@@ -1,0 +1,1074 @@
+[
+  {
+    "dataset": "UCI HAR",
+    "status": "exploratory_post_development_evaluation",
+    "selection_protocol": "subject-disjoint training folds only",
+    "original_feature_count": 15,
+    "augmented_feature_count": 24,
+    "added_features": [
+      "gravity_magnitude",
+      "log_dynamic_power",
+      "log_vertical_power",
+      "log_horizontal_power",
+      "log_vertical_jerk",
+      "log_horizontal_jerk",
+      "magnitude_dominant_frequency_hz",
+      "magnitude_spectral_entropy",
+      "magnitude_log_band_power"
+    ],
+    "reference": {
+      "gamma": 0.03,
+      "cv_metrics": {
+        "windows": 7352,
+        "accuracy": 0.8800326441784548,
+        "balanced_accuracy": 0.8781978169656157,
+        "macro_f1": 0.8770561776921432,
+        "class_order": [
+          "WALKING",
+          "WALKING_UPSTAIRS",
+          "WALKING_DOWNSTAIRS",
+          "SITTING",
+          "STANDING",
+          "LAYING"
+        ],
+        "confusion_matrix": [
+          [
+            1035,
+            90,
+            100,
+            0,
+            1,
+            0
+          ],
+          [
+            85,
+            926,
+            61,
+            0,
+            1,
+            0
+          ],
+          [
+            53,
+            34,
+            899,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            941,
+            307,
+            38
+          ],
+          [
+            0,
+            0,
+            0,
+            112,
+            1262,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1407
+          ]
+        ],
+        "per_class": {
+          "WALKING": {
+            "support": 1226,
+            "precision": 0.8823529411764706,
+            "recall": 0.8442088091353996,
+            "f1": 0.8628595248020008
+          },
+          "WALKING_UPSTAIRS": {
+            "support": 1073,
+            "precision": 0.8819047619047619,
+            "recall": 0.8630009319664492,
+            "f1": 0.8723504474799813
+          },
+          "WALKING_DOWNSTAIRS": {
+            "support": 986,
+            "precision": 0.8481132075471698,
+            "recall": 0.9117647058823529,
+            "f1": 0.8787878787878789
+          },
+          "SITTING": {
+            "support": 1286,
+            "precision": 0.8936372269705603,
+            "recall": 0.7317262830482115,
+            "f1": 0.8046173578452329
+          },
+          "STANDING": {
+            "support": 1374,
+            "precision": 0.8033099936346276,
+            "recall": 0.9184861717612809,
+            "f1": 0.8570458404074702
+          },
+          "LAYING": {
+            "support": 1407,
+            "precision": 0.9737024221453288,
+            "recall": 1.0,
+            "f1": 0.9866760168302946
+          }
+        }
+      },
+      "test_metrics": {
+        "windows": 2947,
+        "accuracy": 0.8791991856124872,
+        "balanced_accuracy": 0.8776046218834798,
+        "macro_f1": 0.8766851285199015,
+        "class_order": [
+          "WALKING",
+          "WALKING_UPSTAIRS",
+          "WALKING_DOWNSTAIRS",
+          "SITTING",
+          "STANDING",
+          "LAYING"
+        ],
+        "confusion_matrix": [
+          [
+            456,
+            8,
+            31,
+            0,
+            1,
+            0
+          ],
+          [
+            31,
+            406,
+            27,
+            0,
+            7,
+            0
+          ],
+          [
+            12,
+            18,
+            390,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            307,
+            177,
+            7
+          ],
+          [
+            0,
+            0,
+            0,
+            37,
+            495,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            537
+          ]
+        ],
+        "per_class": {
+          "WALKING": {
+            "support": 496,
+            "precision": 0.9138276553106213,
+            "recall": 0.9193548387096774,
+            "f1": 0.9165829145728642
+          },
+          "WALKING_UPSTAIRS": {
+            "support": 471,
+            "precision": 0.9398148148148148,
+            "recall": 0.861995753715499,
+            "f1": 0.8992248062015505
+          },
+          "WALKING_DOWNSTAIRS": {
+            "support": 420,
+            "precision": 0.8705357142857143,
+            "recall": 0.9285714285714286,
+            "f1": 0.8986175115207374
+          },
+          "SITTING": {
+            "support": 491,
+            "precision": 0.8924418604651163,
+            "recall": 0.6252545824847251,
+            "f1": 0.7353293413173653
+          },
+          "STANDING": {
+            "support": 532,
+            "precision": 0.7279411764705882,
+            "recall": 0.9304511278195489,
+            "f1": 0.8168316831683168
+          },
+          "LAYING": {
+            "support": 537,
+            "precision": 0.9871323529411765,
+            "recall": 1.0,
+            "f1": 0.9935245143385754
+          }
+        }
+      }
+    },
+    "best_augmented": {
+      "lambda": 0.05,
+      "gamma": 0.0,
+      "cv_metrics": {
+        "windows": 7352,
+        "accuracy": 0.8837051142546246,
+        "balanced_accuracy": 0.8826201099845216,
+        "macro_f1": 0.8815683297876409,
+        "class_order": [
+          "WALKING",
+          "WALKING_UPSTAIRS",
+          "WALKING_DOWNSTAIRS",
+          "SITTING",
+          "STANDING",
+          "LAYING"
+        ],
+        "confusion_matrix": [
+          [
+            1096,
+            68,
+            62,
+            0,
+            0,
+            0
+          ],
+          [
+            59,
+            937,
+            77,
+            0,
+            0,
+            0
+          ],
+          [
+            34,
+            51,
+            901,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            915,
+            325,
+            45
+          ],
+          [
+            0,
+            1,
+            0,
+            132,
+            1241,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1407
+          ]
+        ],
+        "per_class": {
+          "WALKING": {
+            "support": 1226,
+            "precision": 0.9210084033613445,
+            "recall": 0.8939641109298532,
+            "f1": 0.9072847682119205
+          },
+          "WALKING_UPSTAIRS": {
+            "support": 1073,
+            "precision": 0.8864711447492905,
+            "recall": 0.8732525629077353,
+            "f1": 0.8798122065727699
+          },
+          "WALKING_DOWNSTAIRS": {
+            "support": 986,
+            "precision": 0.8663461538461539,
+            "recall": 0.9137931034482759,
+            "f1": 0.8894373149062191
+          },
+          "SITTING": {
+            "support": 1286,
+            "precision": 0.8739255014326648,
+            "recall": 0.7115085536547434,
+            "f1": 0.7843977711101586
+          },
+          "STANDING": {
+            "support": 1374,
+            "precision": 0.7924648786717752,
+            "recall": 0.9032023289665211,
+            "f1": 0.8442176870748299
+          },
+          "LAYING": {
+            "support": 1407,
+            "precision": 0.96900826446281,
+            "recall": 1.0,
+            "f1": 0.9842602308499475
+          }
+        }
+      },
+      "test_metrics": {
+        "windows": 2947,
+        "accuracy": 0.8771632168306752,
+        "balanced_accuracy": 0.8756021241685165,
+        "macro_f1": 0.8743343978601191,
+        "class_order": [
+          "WALKING",
+          "WALKING_UPSTAIRS",
+          "WALKING_DOWNSTAIRS",
+          "SITTING",
+          "STANDING",
+          "LAYING"
+        ],
+        "confusion_matrix": [
+          [
+            456,
+            8,
+            32,
+            0,
+            0,
+            0
+          ],
+          [
+            46,
+            412,
+            13,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            24,
+            390,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            293,
+            195,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            35,
+            497,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            537
+          ]
+        ],
+        "per_class": {
+          "WALKING": {
+            "support": 496,
+            "precision": 0.8976377952755905,
+            "recall": 0.9193548387096774,
+            "f1": 0.9083665338645418
+          },
+          "WALKING_UPSTAIRS": {
+            "support": 471,
+            "precision": 0.9279279279279279,
+            "recall": 0.8747346072186837,
+            "f1": 0.9005464480874317
+          },
+          "WALKING_DOWNSTAIRS": {
+            "support": 420,
+            "precision": 0.896551724137931,
+            "recall": 0.9285714285714286,
+            "f1": 0.912280701754386
+          },
+          "SITTING": {
+            "support": 491,
+            "precision": 0.8932926829268293,
+            "recall": 0.5967413441955194,
+            "f1": 0.7155067155067155
+          },
+          "STANDING": {
+            "support": 532,
+            "precision": 0.7182080924855492,
+            "recall": 0.9342105263157895,
+            "f1": 0.812091503267974
+          },
+          "LAYING": {
+            "support": 537,
+            "precision": 0.9944444444444445,
+            "recall": 1.0,
+            "f1": 0.9972144846796658
+          }
+        }
+      }
+    },
+    "selected_family": "gravity_aligned_augmented",
+    "selected_test_metrics": {
+      "windows": 2947,
+      "accuracy": 0.8771632168306752,
+      "balanced_accuracy": 0.8756021241685165,
+      "macro_f1": 0.8743343978601191,
+      "class_order": [
+        "WALKING",
+        "WALKING_UPSTAIRS",
+        "WALKING_DOWNSTAIRS",
+        "SITTING",
+        "STANDING",
+        "LAYING"
+      ],
+      "confusion_matrix": [
+        [
+          456,
+          8,
+          32,
+          0,
+          0,
+          0
+        ],
+        [
+          46,
+          412,
+          13,
+          0,
+          0,
+          0
+        ],
+        [
+          6,
+          24,
+          390,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          293,
+          195,
+          3
+        ],
+        [
+          0,
+          0,
+          0,
+          35,
+          497,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          537
+        ]
+      ],
+      "per_class": {
+        "WALKING": {
+          "support": 496,
+          "precision": 0.8976377952755905,
+          "recall": 0.9193548387096774,
+          "f1": 0.9083665338645418
+        },
+        "WALKING_UPSTAIRS": {
+          "support": 471,
+          "precision": 0.9279279279279279,
+          "recall": 0.8747346072186837,
+          "f1": 0.9005464480874317
+        },
+        "WALKING_DOWNSTAIRS": {
+          "support": 420,
+          "precision": 0.896551724137931,
+          "recall": 0.9285714285714286,
+          "f1": 0.912280701754386
+        },
+        "SITTING": {
+          "support": 491,
+          "precision": 0.8932926829268293,
+          "recall": 0.5967413441955194,
+          "f1": 0.7155067155067155
+        },
+        "STANDING": {
+          "support": 532,
+          "precision": 0.7182080924855492,
+          "recall": 0.9342105263157895,
+          "f1": 0.812091503267974
+        },
+        "LAYING": {
+          "support": 537,
+          "precision": 0.9944444444444445,
+          "recall": 1.0,
+          "f1": 0.9972144846796658
+        }
+      }
+    }
+  },
+  {
+    "dataset": "WISDM",
+    "status": "exploratory_post_development_evaluation",
+    "selection_protocol": "subject-disjoint training folds only",
+    "original_feature_count": 15,
+    "augmented_feature_count": 24,
+    "added_features": [
+      "gravity_magnitude",
+      "log_dynamic_power",
+      "log_vertical_power",
+      "log_horizontal_power",
+      "log_vertical_jerk",
+      "log_horizontal_jerk",
+      "magnitude_dominant_frequency_hz",
+      "magnitude_spectral_entropy",
+      "magnitude_log_band_power"
+    ],
+    "reference": {
+      "gamma": 0.75,
+      "cv_metrics": {
+        "windows": 3597,
+        "accuracy": 0.8412566027244927,
+        "balanced_accuracy": 0.8407429478394256,
+        "macro_f1": 0.8269854679468823,
+        "class_order": [
+          "Walking",
+          "Jogging",
+          "Upstairs",
+          "Downstairs",
+          "Sitting",
+          "Standing"
+        ],
+        "confusion_matrix": [
+          [
+            1174,
+            111,
+            82,
+            43,
+            0,
+            0
+          ],
+          [
+            55,
+            1056,
+            13,
+            27,
+            0,
+            0
+          ],
+          [
+            23,
+            18,
+            252,
+            111,
+            0,
+            0
+          ],
+          [
+            19,
+            10,
+            45,
+            219,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            0,
+            187,
+            9
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            3,
+            138
+          ]
+        ],
+        "per_class": {
+          "Walking": {
+            "support": 1410,
+            "precision": 0.923682140047207,
+            "recall": 0.8326241134751773,
+            "f1": 0.8757926146960089
+          },
+          "Jogging": {
+            "support": 1151,
+            "precision": 0.8836820083682009,
+            "recall": 0.9174630755864466,
+            "f1": 0.9002557544757034
+          },
+          "Upstairs": {
+            "support": 404,
+            "precision": 0.6395939086294417,
+            "recall": 0.6237623762376238,
+            "f1": 0.631578947368421
+          },
+          "Downstairs": {
+            "support": 293,
+            "precision": 0.5475,
+            "recall": 0.7474402730375427,
+            "f1": 0.632034632034632
+          },
+          "Sitting": {
+            "support": 198,
+            "precision": 0.9842105263157894,
+            "recall": 0.9444444444444444,
+            "f1": 0.9639175257731959
+          },
+          "Standing": {
+            "support": 141,
+            "precision": 0.9387755102040817,
+            "recall": 0.9787234042553191,
+            "f1": 0.9583333333333333
+          }
+        }
+      },
+      "test_metrics": {
+        "windows": 1628,
+        "accuracy": 0.788083538083538,
+        "balanced_accuracy": 0.7841197034646358,
+        "macro_f1": 0.7672083527706143,
+        "class_order": [
+          "Walking",
+          "Jogging",
+          "Upstairs",
+          "Downstairs",
+          "Sitting",
+          "Standing"
+        ],
+        "confusion_matrix": [
+          [
+            485,
+            96,
+            46,
+            20,
+            0,
+            0
+          ],
+          [
+            35,
+            451,
+            1,
+            19,
+            0,
+            0
+          ],
+          [
+            12,
+            41,
+            55,
+            41,
+            0,
+            0
+          ],
+          [
+            1,
+            10,
+            6,
+            129,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            73,
+            17
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            90
+          ]
+        ],
+        "per_class": {
+          "Walking": {
+            "support": 647,
+            "precision": 0.9099437148217636,
+            "recall": 0.749613601236476,
+            "f1": 0.8220338983050848
+          },
+          "Jogging": {
+            "support": 506,
+            "precision": 0.754180602006689,
+            "recall": 0.8913043478260869,
+            "f1": 0.8170289855072463
+          },
+          "Upstairs": {
+            "support": 149,
+            "precision": 0.5092592592592593,
+            "recall": 0.3691275167785235,
+            "f1": 0.42801556420233466
+          },
+          "Downstairs": {
+            "support": 146,
+            "precision": 0.6172248803827751,
+            "recall": 0.8835616438356164,
+            "f1": 0.7267605633802817
+          },
+          "Sitting": {
+            "support": 90,
+            "precision": 1.0,
+            "recall": 0.8111111111111111,
+            "f1": 0.8957055214723927
+          },
+          "Standing": {
+            "support": 90,
+            "precision": 0.8411214953271028,
+            "recall": 1.0,
+            "f1": 0.9137055837563453
+          }
+        }
+      }
+    },
+    "best_augmented": {
+      "lambda": 0.25,
+      "gamma": 0.01,
+      "cv_metrics": {
+        "windows": 3597,
+        "accuracy": 0.8776758409785933,
+        "balanced_accuracy": 0.874095063704483,
+        "macro_f1": 0.8572293989071516,
+        "class_order": [
+          "Walking",
+          "Jogging",
+          "Upstairs",
+          "Downstairs",
+          "Sitting",
+          "Standing"
+        ],
+        "confusion_matrix": [
+          [
+            1240,
+            46,
+            49,
+            75,
+            0,
+            0
+          ],
+          [
+            41,
+            1054,
+            5,
+            51,
+            0,
+            0
+          ],
+          [
+            12,
+            14,
+            317,
+            61,
+            0,
+            0
+          ],
+          [
+            5,
+            4,
+            59,
+            225,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            0,
+            186,
+            9
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            5,
+            135
+          ]
+        ],
+        "per_class": {
+          "Walking": {
+            "support": 1410,
+            "precision": 0.9553158705701078,
+            "recall": 0.8794326241134752,
+            "f1": 0.9158050221565731
+          },
+          "Jogging": {
+            "support": 1151,
+            "precision": 0.9427549194991055,
+            "recall": 0.9157254561251086,
+            "f1": 0.9290436315557513
+          },
+          "Upstairs": {
+            "support": 404,
+            "precision": 0.7304147465437788,
+            "recall": 0.7846534653465347,
+            "f1": 0.756563245823389
+          },
+          "Downstairs": {
+            "support": 293,
+            "precision": 0.5461165048543689,
+            "recall": 0.7679180887372014,
+            "f1": 0.6382978723404256
+          },
+          "Sitting": {
+            "support": 198,
+            "precision": 0.9738219895287958,
+            "recall": 0.9393939393939394,
+            "f1": 0.9562982005141388
+          },
+          "Standing": {
+            "support": 141,
+            "precision": 0.9375,
+            "recall": 0.9574468085106383,
+            "f1": 0.9473684210526315
+          }
+        }
+      },
+      "test_metrics": {
+        "windows": 1628,
+        "accuracy": 0.8255528255528255,
+        "balanced_accuracy": 0.8073346554295348,
+        "macro_f1": 0.7814901594282461,
+        "class_order": [
+          "Walking",
+          "Jogging",
+          "Upstairs",
+          "Downstairs",
+          "Sitting",
+          "Standing"
+        ],
+        "confusion_matrix": [
+          [
+            506,
+            9,
+            31,
+            101,
+            0,
+            0
+          ],
+          [
+            6,
+            484,
+            0,
+            16,
+            0,
+            0
+          ],
+          [
+            0,
+            21,
+            70,
+            58,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            21,
+            122,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            73,
+            17
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            89
+          ]
+        ],
+        "per_class": {
+          "Walking": {
+            "support": 647,
+            "precision": 0.98635477582846,
+            "recall": 0.7820710973724884,
+            "f1": 0.8724137931034481
+          },
+          "Jogging": {
+            "support": 506,
+            "precision": 0.937984496124031,
+            "recall": 0.9565217391304348,
+            "f1": 0.9471624266144814
+          },
+          "Upstairs": {
+            "support": 149,
+            "precision": 0.5691056910569106,
+            "recall": 0.4697986577181208,
+            "f1": 0.5147058823529411
+          },
+          "Downstairs": {
+            "support": 146,
+            "precision": 0.4107744107744108,
+            "recall": 0.8356164383561644,
+            "f1": 0.5507900677200904
+          },
+          "Sitting": {
+            "support": 90,
+            "precision": 1.0,
+            "recall": 0.8111111111111111,
+            "f1": 0.8957055214723927
+          },
+          "Standing": {
+            "support": 90,
+            "precision": 0.839622641509434,
+            "recall": 0.9888888888888889,
+            "f1": 0.9081632653061226
+          }
+        }
+      }
+    },
+    "selected_family": "gravity_aligned_augmented",
+    "selected_test_metrics": {
+      "windows": 1628,
+      "accuracy": 0.8255528255528255,
+      "balanced_accuracy": 0.8073346554295348,
+      "macro_f1": 0.7814901594282461,
+      "class_order": [
+        "Walking",
+        "Jogging",
+        "Upstairs",
+        "Downstairs",
+        "Sitting",
+        "Standing"
+      ],
+      "confusion_matrix": [
+        [
+          506,
+          9,
+          31,
+          101,
+          0,
+          0
+        ],
+        [
+          6,
+          484,
+          0,
+          16,
+          0,
+          0
+        ],
+        [
+          0,
+          21,
+          70,
+          58,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          21,
+          122,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          73,
+          17
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          89
+        ]
+      ],
+      "per_class": {
+        "Walking": {
+          "support": 647,
+          "precision": 0.98635477582846,
+          "recall": 0.7820710973724884,
+          "f1": 0.8724137931034481
+        },
+        "Jogging": {
+          "support": 506,
+          "precision": 0.937984496124031,
+          "recall": 0.9565217391304348,
+          "f1": 0.9471624266144814
+        },
+        "Upstairs": {
+          "support": 149,
+          "precision": 0.5691056910569106,
+          "recall": 0.4697986577181208,
+          "f1": 0.5147058823529411
+        },
+        "Downstairs": {
+          "support": 146,
+          "precision": 0.4107744107744108,
+          "recall": 0.8356164383561644,
+          "f1": 0.5507900677200904
+        },
+        "Sitting": {
+          "support": 90,
+          "precision": 1.0,
+          "recall": 0.8111111111111111,
+          "f1": 0.8957055214723927
+        },
+        "Standing": {
+          "support": 90,
+          "precision": 0.839622641509434,
+          "recall": 0.9888888888888889,
+          "f1": 0.9081632653061226
+        }
+      }
+    }
+  }
+]
