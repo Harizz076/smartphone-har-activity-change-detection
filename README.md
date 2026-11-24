@@ -22,7 +22,9 @@ python3 glrt/six_class_glrt.py --dataset all
 python3 analysis/optimize_six_class_glrt.py --dataset all
 python3 analysis/compare_robust_likelihoods.py --dataset all
 python3 glrt/robust_six_class_glrt.py --dataset all
-python3 analysis/evaluate_continuous_glrt.py
+python3 glrt/improved_six_class_glrt.py --dataset all
+python3 analysis/evaluate_rda_glrt.py --dataset all
+python3 analysis/evaluate_gravity_features.py --dataset all
 ```
 
 No third-party Python packages are needed. See `baseline/BASELINE_REPORT.md`
@@ -34,15 +36,13 @@ The exhaustive subject-disjoint model search, plots, and statistical audit are
 documented in `analysis/six_class_optimization/README.md`.
 The Gaussian/Student-t/Laplace comparison is documented in
 `analysis/robust_likelihoods/README.md`.
-The continuous, subject-independent UCI 341 transition results are documented
-in `analysis/continuous_glrt/README.md`.
+The literature-driven RDA and gravity-aligned feature experiments are under
+`analysis/rda_glrt/` and `analysis/gravity_features/`.
 
 ## Datasets
 
 - UCI Human Activity Recognition Using Smartphones Dataset
 - WISDM Activity Recognition Dataset v1.1
-- UCI Smartphone-Based Recognition of Human Activities and Postural
-  Transitions (UCI ID 341 / HAPT)
 
 Please consult the license and citation notices included with each dataset
 before redistributing or using them in academic work.
