@@ -11,15 +11,24 @@
 \graphicspath{{../figures/generated/}}
 \definecolor{signatureblue}{HTML}{195AA6}
 \definecolor{signaturered}{HTML}{BE1E2D}
+\newcommand{\authorrow}[1]{\hbox to 0.45\textwidth{\hfil\rule[-0.8ex]{0pt}{2.8ex}#1\hfil}}
+\newcommand{\authorcell}[2]{\vtop{%
+\authorrow{#1}%
+\authorrow{\normalfont\itshape\normalsize International Institute of Information Technology}%
+\authorrow{\normalfont\normalsize Hyderabad, India}%
+\authorrow{\normalfont\normalsize #2}}}
 
 \title{Subject-Independent Smartphone Activity Recognition\\
 with Regularized Generalized Likelihood Ratios}
 
-\author{\IEEEauthorblockN{Shaikh Haris Jamal, Snehil Sanjog, Deepak Pandey, and Jay Daulatkar}
-\IEEEauthorblockA{SDET Project\\
-International Institute of Information Technology, Hyderabad\\
-shaikh.jamal@research.iiit.ac.in\\
-\{snehil.sanjog, deepak.pandey, jay.daulatkar\}@students.iiit.ac.in}}
+\author{\IEEEauthorblockN{\vbox{%
+\hbox to 0.94\textwidth{%
+\authorcell{1\textsuperscript{st} Shaikh Haris Jamal}{shaikh.jamal@research.iiit.ac.in}\hfil
+\authorcell{2\textsuperscript{nd} Snehil Sanjog}{snehil.sanjog@students.iiit.ac.in}}%
+\vskip 1.0em
+\hbox to 0.94\textwidth{%
+\authorcell{3\textsuperscript{rd} Deepak Pandey}{deepak.pandey@students.iiit.ac.in}\hfil
+\authorcell{4\textsuperscript{th} Jay Daulatkar}{jay.daulatkar@students.iiit.ac.in}}}}}
 
 \begin{document}
 \maketitle
